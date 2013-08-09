@@ -21,7 +21,7 @@ Methods or classes that do the same thing but have different signatures.
 > It's surprising how often you look at thickly commented code and notice that the comments are there because the code is bad. <br/>
 > -- *[Refactoring][refactoring]*
 
-Many comments aren't bad in and of themselves. But comments are often used to explain poorly-written code. In this case, the code should be written better and the comments removed. Comments should be used more to explain *why* the code is this way rather than *what* the code is doing.
+Many comments aren't bad in and of themselves. But comments are often used to explain poorly-written code. In this case, the code should be written better and the comments removed.
 
 #### Data Class
 
