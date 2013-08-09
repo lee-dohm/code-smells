@@ -1,6 +1,6 @@
 # Code Smells
 
-"Code Smell" is a term coined by Kent Beck and Martin Fowler and introduced in Martin Fowler's book, [Refactoring][refactoring]. Code Smells are patterns of code that suggest there might be a problem, that there might be a better way of writing the code or that more design perhaps should go into it. They are intended to be used as a guide for when to refactor code. Additionally, I have found them to be very useful in code reviews as a succinct language for when and how to clean up certain chunks of code. I wanted to document and standardize this language so as to make code reviews more valuable.
+"Code Smell" is a term coined by Kent Beck and Martin Fowler and introduced in Martin Fowler's book, [Refactoring][refactoring]. Code Smells are patterns of code that suggest there might be a problem, that there might be a better way of writing the code or that more design perhaps should go into it. They were originally intended to be used as a guide for when to refactor code. More recently though, I have found them to be very useful in code reviews as a succinct language for when and how to clean up certain chunks of code. I wanted to document and standardize this language so as to make code reviews more valuable.
 
 ## List of Code Smells
 
@@ -222,7 +222,7 @@ A class that inherits from another, but hides or removes a lot of the functional
 
 * [Refactoring: Ruby Edition][refactoring-ruby]
 
-> One of the easiest ways to remove duplication is Extract Method. Extract the method and call it from multiple places. Some kinds of methods become so commonplace that we can go even further. Take for example attr_reader in Ruby. Implementing attribute readers is so common in object-oriented languages that the author of Ruby decided to provide a succinct way to declare them. <br/>
+> One of the easiest ways to remove duplication is [the Extract Method refactoring]. Extract the method and call it from multiple places. Some kinds of methods become so commonplace that we can go even further. Take for example attr_reader in Ruby. Implementing attribute readers is so common in object-oriented languages that the author of Ruby decided to provide a succinct way to declare them. <br/>
 > -- *[Refactoring: Ruby Edition][refactoring-ruby]*
 
 #### Shotgun Surgery
