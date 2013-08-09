@@ -371,5 +371,6 @@ You should be able to run *all* the unit tests with just one command.
 * Martin, Robert C. *[Clean Code][clean-code]*. Prentice Hall, August 11, 2008.
 
 [clean-code]: http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
+[fluent]: http://en.wikipedia.org/wiki/Fluent_interface
 [refactoring]: http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/
 [srp]: http://en.wikipedia.org/wiki/Single_responsibility_principle
