@@ -96,7 +96,10 @@ You see message chains when a client asks one object for another object, which t
 
 ```java
 // Message Chain
-double salary = database.getCompany(companyName).getManager(managerName).getTeamMember(employeeName).getSalary();
+double salary = database.getCompany(companyName)
+                        .getManager(managerName)
+                        .getTeamMember(employeeName)
+                        .getSalary();
 
 // Fluent Interface
 canvas.drawLine(from, to)
