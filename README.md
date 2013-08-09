@@ -6,7 +6,7 @@
 
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
-### Refactoring
+### Code Smells That Suggest Refactoring
 
 #### Alternative Classes with Different Interfaces
 
@@ -18,31 +18,36 @@ Methods or classes that do the same thing but have different signatures.
 
 * p87
 
-> It's surprising how often you look at thickly commented code and notice that the comments are there because the code is bad.
+> It's surprising how often you look at thickly commented code and notice that the comments are there because the code is bad. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Data Class
 
 * p86
 
-> These are classes that have fields, getting and setting methods for the fields, and nothing else. Such classes are dumb data holders and are almost certainly being manipulated in far too much detail by other classes.
+> These are classes that have fields, getting and setting methods for the fields, and nothing else. Such classes are dumb data holders and are almost certainly being manipulated in far too much detail by other classes. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Data Clumps
 
 * p81
 
-> Data items tend to be like children; they enjoy hanging around in groups together. Often you'll see the same three or four data items together in lots of places: fields in a couple of classes, parameters in many method signatures. Bunches of data that hang around together really ought to be made into their own object.
+> Data items tend to be like children; they enjoy hanging around in groups together. Often you'll see the same three or four data items together in lots of places: fields in a couple of classes, parameters in many method signatures. Bunches of data that hang around together really ought to be made into their own object. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Disjointed API
 
 * [Refactoring: Ruby Edition][refactoring-ruby]
 
-> Libraries are often written with flexibility as the number one priority. The author needs to build in this flexibility so that her library can be used by many different people in many different ways. This flexibility often presents itself as a relatively fine-grained, disjointed API, with many configuration options.
+> Libraries are often written with flexibility as the number one priority. The author needs to build in this flexibility so that her library can be used by many different people in many different ways. This flexibility often presents itself as a relatively fine-grained, disjointed API, with many configuration options. <br/>
+> -- *[Refactoring: Ruby Edition][refactoring-ruby]*
 
 #### Divergent Change
 
 * p79
 
-> Divergent change occurs when one class is commonly changed in different ways for different reasons. If you look at a class and say, "Well, I will have to change these three methods every time I get a new database; I have to change these four methods every time there is a new financial instrument," you likely have a situation in which two objects are better than one. That way each object is changed only as a result of one kind of change.
+> Divergent change occurs when one class is commonly changed in different ways for different reasons. If you look at a class and say, "Well, I will have to change these three methods every time I get a new database; I have to change these four methods every time there is a new financial instrument," you likely have a situation in which two objects are better than one. That way each object is changed only as a result of one kind of change. <br/>
+> -- *[Refactoring][refactoring]*
 
 *See [Single Responsibility Principle][srp]*
 
@@ -50,19 +55,22 @@ Methods or classes that do the same thing but have different signatures.
 
 * p76
 
-> If you see the same code structure in more than one place, you can be sure that your program will be better if you find a way to unify them.
+> If you see the same code structure in more than one place, you can be sure that your program will be better if you find a way to unify them. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Feature Envy
 
 * p80
 
-> A method that seems more interested in a class other than the one it actually is in. The most common focus of the envy is the data. We've lost count of the times we've seen a method that invokes half-a-dozen getting methods on another object to calculate some value.
+> A method that seems more interested in a class other than the one it actually is in. The most common focus of the envy is the data. We've lost count of the times we've seen a method that invokes half-a-dozen getting methods on another object to calculate some value. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Inappropriate Intimacy
 
 * p85
 
-> Sometimes classes become far too intimate and spend too much time delving in each others' private parts. We may not be prudes when it comes to people, but we think our classes should follow strict, puritan rules.
+> Sometimes classes become far too intimate and spend too much time delving in each others' private parts. We may not be prudes when it comes to people, but we think our classes should follow strict, puritan rules. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Incomplete Library Class
 
@@ -80,7 +88,8 @@ Typically a catch-all class that all the functionality that doesn't go anywhere 
 
 * p83
 
-> Each class you create costs money to maintain and understand. A class that isn't doing enough to pay for itself should be eliminated.
+> Each class you create costs money to maintain and understand. A class that isn't doing enough to pay for itself should be eliminated. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Long Method
 
@@ -119,25 +128,29 @@ In the above example, the function calling the message chain has to understand t
 
 * [Refactoring: Ruby Edition][refactoring-ruby]
 
-> While in most cases Ruby's dynamic nature provides great benefits, it can be misused. Some metaprogramming techniques can result in obfuscated code. The `method_missing` hook, for example, often results in code that is difficult to understand.
+> While in most cases Ruby's dynamic nature provides great benefits, it can be misused. Some metaprogramming techniques can result in obfuscated code. The `method_missing` hook, for example, often results in code that is difficult to understand. <br/>
+> -- *[Refactoring: Ruby Edition][refactoring-ruby]*
 
 #### Middle Man
 
 * p85
 
-> You look at a class' interface and find half the methods are delegating to this other class.
+> You look at a class' interface and find half the methods are delegating to this other class. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Parallel Inheritance Hierarchies
 
 * p83
 
-> Parallel inheritance hierarchies is really a special case of shotgun surgery. In this case, every time you make a subclass of one class, you also have to make a subclass of another.
+> Parallel inheritance hierarchies is really a special case of shotgun surgery. In this case, every time you make a subclass of one class, you also have to make a subclass of another. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Primitive Obsession
 
 * p81
 
-> People new to objects usually are reluctant to use small objects for small tasks, such as money classes that combine number and currency, ranges with an upper and a lower, and special strings such as telephone numbers and ZIP codes.
+> People new to objects usually are reluctant to use small objects for small tasks, such as money classes that combine number and currency, ranges with an upper and a lower, and special strings such as telephone numbers and ZIP codes. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Refused Bequest
 
@@ -149,35 +162,38 @@ A class that inherits from another, but hides or removes a lot of the functional
 
 * [Refactoring: Ruby Edition][refactoring-ruby]
 
-> One of the easiest ways to remove duplication is Extract Method. Extract the method and call it from multiple places. Some kinds of methods become so commonplace that we can go even further. Take for example attr_reader in Ruby. Implementing attribute readers is so common in object-oriented languages that the author of Ruby decided to provide a succinct way to declare them.
+> One of the easiest ways to remove duplication is Extract Method. Extract the method and call it from multiple places. Some kinds of methods become so commonplace that we can go even further. Take for example attr_reader in Ruby. Implementing attribute readers is so common in object-oriented languages that the author of Ruby decided to provide a succinct way to declare them. <br/>
+> -- *[Refactoring: Ruby Edition][refactoring-ruby]*
 
 #### Shotgun Surgery
 
 * p80
 
-> Shotgun surgery is similar to divergent change but is the opposite. You whiff this when every time you make a kind of change, you have to make a lot of little changes to a lot of different classes. When the changes are all over the place, they are hard to find, and it's easy to miss an important change.
+> Shotgun surgery is similar to divergent change but is the opposite. You whiff this when every time you make a kind of change, you have to make a lot of little changes to a lot of different classes. When the changes are all over the place, they are hard to find, and it's easy to miss an important change. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Speculative Generality
 
 * p83
 
-> You get it when people say, "Oh, I think we need the ability to do this kind of thing someday" and thus want all sorts of hooks and special cases to handle things that aren't required. The result often is harder to understand and maintain. If all this machinery were being used, it would be worth it. But if it isn't, it isn't. The machinery just gets in the way, so get rid of it.
+> You get it when people say, "Oh, I think we need the ability to do this kind of thing someday" and thus want all sorts of hooks and special cases to handle things that aren't required. The result often is harder to understand and maintain. If all this machinery were being used, it would be worth it. But if it isn't, it isn't. The machinery just gets in the way, so get rid of it. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Switch Statements
 
 * p82
 
-> Often you find the same switch statement scattered about a program in different places. If you add a new clause to the switch, you have to find all these switch statements and change them.
+> Often you find the same switch statement scattered about a program in different places. If you add a new clause to the switch, you have to find all these switch statements and change them. <br/>
+> -- *[Refactoring][refactoring]*
 
 #### Temporary Field
 
 * p84
 
-> Sometimes you see an object in which an instance variable is set only in certain circumstances. Such code is difficult to understand, because you expect an object to need all of its variables.
+> Sometimes you see an object in which an instance variable is set only in certain circumstances. Such code is difficult to understand, because you expect an object to need all of its variables. <br/>
+> -- *[Refactoring][refactoring]*
 
-### Clean Code
-
-The Code Smells from Clean Code seem to devolve into "do things this way" rather than "this is an indicator of bad code that should be changed".
+### Other Code Smells
 
 #### Artificial Coupling
 
