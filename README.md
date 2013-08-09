@@ -18,19 +18,19 @@ Methods or classes that do the same thing but have different signatures.
 
 * p87
 
-It's surprising how often you look at thickly commented code and notice that the comments are there because the code is bad.
+> It's surprising how often you look at thickly commented code and notice that the comments are there because the code is bad.
 
 #### Data Class
 
 * p86
 
-These are classes that have fields, getting and setting methods for the fields, and nothing else. Such classes are dumb data holders and are almost certainly being manipulated in far too much detail by other classes.
+> These are classes that have fields, getting and setting methods for the fields, and nothing else. Such classes are dumb data holders and are almost certainly being manipulated in far too much detail by other classes.
 
 #### Data Clumps
 
 * p81
 
-Data items tend to be like children; they enjoy hanging around in groups together. Often you'll see the same three or four data items together in lots of places: fields in a couple of classes, parameters in many method signatures. Bunches of data that hang around together really ought to be made into their own object.
+> Data items tend to be like children; they enjoy hanging around in groups together. Often you'll see the same three or four data items together in lots of places: fields in a couple of classes, parameters in many method signatures. Bunches of data that hang around together really ought to be made into their own object.
 
 #### Disjointed API
 
@@ -42,7 +42,7 @@ Data items tend to be like children; they enjoy hanging around in groups togethe
 
 * p79
 
-Divergent change occurs when one class is commonly changed in different ways for different reasons. If you look at a class and say, "Well, I will have to change these three methods every time I get a new database; I have to change these four methods every time there is a new financial instrument," you likely have a situation in which two objects are better than one. That way each object is changed only as a result of one kind of change.
+> Divergent change occurs when one class is commonly changed in different ways for different reasons. If you look at a class and say, "Well, I will have to change these three methods every time I get a new database; I have to change these four methods every time there is a new financial instrument," you likely have a situation in which two objects are better than one. That way each object is changed only as a result of one kind of change.
 
 *See [Single Responsibility Principle][srp]*
 
@@ -50,19 +50,19 @@ Divergent change occurs when one class is commonly changed in different ways for
 
 * p76
 
-If you see the same code structure in more than one place, you can be sure that your program will be better if you find a way to unify them.
+> If you see the same code structure in more than one place, you can be sure that your program will be better if you find a way to unify them.
 
 #### Feature Envy
 
 * p80
 
-A method that seems more interested in a class other than the one it actually is in. The most common focus of the envy is the data. We've lost count of the times we've seen a method that invokes half-a-dozen getting methods on another object to calculate some value.
+> A method that seems more interested in a class other than the one it actually is in. The most common focus of the envy is the data. We've lost count of the times we've seen a method that invokes half-a-dozen getting methods on another object to calculate some value.
 
 #### Inappropriate Intimacy
 
 * p85
 
-Sometimes classes become far too intimate and spend too much time delving in each others' private parts. We may not be prudes when it comes to people, but we think our classes should follow strict, puritan rules.
+> Sometimes classes become far too intimate and spend too much time delving in each others' private parts. We may not be prudes when it comes to people, but we think our classes should follow strict, puritan rules.
 
 #### Incomplete Library Class
 
@@ -80,7 +80,7 @@ Typically a catch-all class that all the functionality that doesn't go anywhere 
 
 * p83
 
-Each class you create costs money to maintain and understand. A class that isn't doing enough to pay for itself should be eliminated.
+> Each class you create costs money to maintain and understand. A class that isn't doing enough to pay for itself should be eliminated.
 
 #### Long Method
 
@@ -125,19 +125,19 @@ In the above example, the function calling the message chain has to understand t
 
 * p85
 
-You look at a class' interface and find half the methods are delegating to this other class.
+> You look at a class' interface and find half the methods are delegating to this other class.
 
 #### Parallel Inheritance Hierarchies
 
 * p83
 
-Parallel inheritance hierarchies is really a special case of shotgun surgery. In this case, every time you make a subclass of one class, you also have to make a subclass of another.
+> Parallel inheritance hierarchies is really a special case of shotgun surgery. In this case, every time you make a subclass of one class, you also have to make a subclass of another.
 
 #### Primitive Obsession
 
 * p81
 
-People new to objects usually are reluctant to use small objects for small tasks, such as money classes that combine number and currency, ranges with an upper and a lower, and special strings such as telephone numbers and ZIP codes.
+> People new to objects usually are reluctant to use small objects for small tasks, such as money classes that combine number and currency, ranges with an upper and a lower, and special strings such as telephone numbers and ZIP codes.
 
 #### Refused Bequest
 
@@ -155,25 +155,25 @@ A class that inherits from another, but hides or removes a lot of the functional
 
 * p80
 
-Shotgun surgery is similar to divergent change but is the opposite. You whiff this when every time you make a kind of change, you have to make a lot of little changes to a lot of different classes. When the changes are all over the place, they are hard to find, and it's easy to miss an important change.
+> Shotgun surgery is similar to divergent change but is the opposite. You whiff this when every time you make a kind of change, you have to make a lot of little changes to a lot of different classes. When the changes are all over the place, they are hard to find, and it's easy to miss an important change.
 
 #### Speculative Generality
 
 * p83
 
-You get it when people say, "Oh, I think we need the ability to do this kind of thing someday" and thus want all sorts of hooks and special cases to handle things that aren't required. The result often is harder to understand and maintain. If all this machinery were being used, it would be worth it. But if it isn't, it isn't. The machinery just gets in the way, so get rid of it.
+> You get it when people say, "Oh, I think we need the ability to do this kind of thing someday" and thus want all sorts of hooks and special cases to handle things that aren't required. The result often is harder to understand and maintain. If all this machinery were being used, it would be worth it. But if it isn't, it isn't. The machinery just gets in the way, so get rid of it.
 
 #### Switch Statements
 
 * p82
 
-Often you find the same switch statement scattered about a program in different places. If you add a new clause to the switch, you have to find all these switch statements and change them.
+> Often you find the same switch statement scattered about a program in different places. If you add a new clause to the switch, you have to find all these switch statements and change them.
 
 #### Temporary Field
 
 * p84
 
-Sometimes you see an object in which an instance variable is set only in certain circumstances. Such code is difficult to understand, because you expect an object to need all of its variables.
+> Sometimes you see an object in which an instance variable is set only in certain circumstances. Such code is difficult to understand, because you expect an object to need all of its variables.
 
 ### Clean Code
 
@@ -191,7 +191,7 @@ The Code Smells from Clean Code seem to devolve into "do things this way" rather
 
 * Clean Code p287
 
-Building a project should be a single trivial operation. You should not have to check many little pieces out from source code control. You should not need a sequence of arcane commands or context dependent scripts in order to build the individual elements. You should not have to search near and far for all the various little extra JARs, XML files, and other artifacts that the system requires. You *should* be able to check out the system with one simple command and then issue one other simple command to build it.
+> Building a project should be a single trivial operation. You should not have to check many little pieces out from source code control. You should not need a sequence of arcane commands or context dependent scripts in order to build the individual elements. You should not have to search near and far for all the various little extra JARs, XML files, and other artifacts that the system requires. You *should* be able to check out the system with one simple command and then issue one other simple command to build it.
 
 ```bash
 git clone mySystem
@@ -207,7 +207,7 @@ ant all
 
 * Clean Code p290
 
-Consider the following code:
+> Consider the following code:
 
 ```java
 public interface Stack {
@@ -220,7 +220,7 @@ public interface Stack {
 }
 ```
 
-The `percentFull` function is at the wrong level of abstraction. Although there are many implementations of `Stack` where the concept of *fullness* is reasonable, there are other implementations that simply *could not know* how full they are. So the function would be better placed in a derivative interface such as `BoundedStack`.
+> The `percentFull` function is at the wrong level of abstraction. Although there are many implementations of `Stack` where the concept of *fullness* is reasonable, there are other implementations that simply *could not know* how full they are. So the function would be better placed in a derivative interface such as `BoundedStack`.
 
 #### Commented Out Code
 
@@ -274,7 +274,7 @@ The `percentFull` function is at the wrong level of abstraction. Although there 
 
 * Clean Code p286
 
-It is inappropriate for a comment to hold information better held in a different kind of system such as your source code control system, your issue tracking system or any other kind of record-keeping system.
+> It is inappropriate for a comment to hold information better held in a different kind of system such as your source code control system, your issue tracking system or any other kind of record-keeping system.
 
 #### Inappropriate Static
 
@@ -320,27 +320,27 @@ It is inappropriate for a comment to hold information better held in a different
 
 * Clean Code p288
 
-For example, consider a function that translates the name of a day to an `enum` that represents the day.
+> For example, consider a function that translates the name of a day to an `enum` that represents the day.
 
 ```java
 Day day = DayDate.StringToDay(String dayName);
 ```
 
-We would expect the string `"Monday"` to be translated to `Day.MONDAY`. We would also expect the common abbreviations to be translated, and we would expect the function to ignore case.
+> We would expect the string `"Monday"` to be translated to `Day.MONDAY`. We would also expect the common abbreviations to be translated, and we would expect the function to ignore case.
 
-When an obvious behavior is not implemented, readers and users of the code can no longer depend on their intuition about function names. They lose their trust in the original author and must fall back on reading the details of the code.
+> When an obvious behavior is not implemented, readers and users of the code can no longer depend on their intuition about function names. They lose their trust in the original author and must fall back on reading the details of the code.
 
 #### Obsolete Comment
 
 * Clean Code p286
 
-A comment that has gotten old, irrelevant, and incorrect is obsolete.
+> A comment that has gotten old, irrelevant, and incorrect is obsolete.
 
 #### Output Arguments
 
 * Clean Code p288
 
-Output arguments are counterintuitive.
+> Output arguments are counterintuitive.
 
 #### Overridden Safeties
 
@@ -354,7 +354,7 @@ Output arguments are counterintuitive.
 
 * Clean Code p286
 
-A comment is redundant if it describes something that adequately describes itself.
+> A comment is redundant if it describes something that adequately describes itself.
 
 ```java
 i++; // increment i
@@ -368,7 +368,7 @@ i++; // increment i
 
 * Clean Code p287
 
-You should be able to run *all* the unit tests with just one command.
+> You should be able to run *all* the unit tests with just one command.
 
 #### Too Much Information
 
