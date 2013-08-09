@@ -30,6 +30,40 @@ Many comments aren't bad in and of themselves. But comments are often used to ex
 > These are classes that have fields, getting and setting methods for the fields, and nothing else. Such classes are dumb data holders and are almost certainly being manipulated in far too much detail by other classes. <br/>
 > -- *[Refactoring][refactoring]*
 
+One might argue that this is in direct conflict with [Primitive Obsession](#primitive-obsession). But Primitive Obsession recommends creating a class for single pieces of data that have specific boundaries or properties for which the built-in data types are not well-suited. Data Class is about creating a class that simply ties a bunch of pieces of data together and provides no other value. For example, the classic `Point` class is potentially an example:
+
+```ruby
+class Point
+  attr_accessor :x
+  attr_accessor :y
+
+  def initialize(x = 0, y = 0)
+    @x = x
+    @y = y
+  end
+end
+```
+
+But perhaps we calculate the distance of two points from each other (or from the origin) in a few places. We should then refactor that to:
+
+```ruby
+class Point
+  attr_accessor :x
+  attr_accessor :y
+
+  def initialize(x = 0, y = 0)
+    @x = x
+    @y = y
+  end
+
+  def distance(point = Point.new)
+    Math.sqrt((@x - point.x) ** 2 + (@y - point.y) ** 2)
+  end
+end
+```
+
+So what really makes this a code smell is that, very often, a Data Class has regular operations performed on it spread around the code base that should be merged into the class itself.
+
 #### Data Clumps
 
 * p81
