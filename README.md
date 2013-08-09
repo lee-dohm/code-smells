@@ -32,6 +32,12 @@ These are classes that have fields, getting and setting methods for the fields, 
 
 Data items tend to be like children; they enjoy hanging around in groups together. Often you'll see the same three or four data items together in lots of places: fields in a couple of classes, parameters in many method signatures. Bunches of data that hang around together really ought to be made into their own object.
 
+#### Disjointed API
+
+* [Refactoring: Ruby Edition][refactoring-ruby]
+
+> Libraries are often written with flexibility as the number one priority. The author needs to build in this flexibility so that her library can be used by many different people in many different ways. This flexibility often presents itself as a relatively fine-grained, disjointed API, with many configuration options.
+
 #### Divergent Change
 
 * p79
@@ -109,6 +115,12 @@ canvas.drawLine(from, to)
 
 In the above example, the function calling the message chain has to understand that it needs to go to the database, get the company object, get the manager object from that, get the individual employee's object from there and finally get the salary. If the structure of how employees are stored changes, this code will break. It would be better to simply ask the database for the employee by name and then ask that for its salary, then the structure of how employees are stored can change and the code will continue to work.
 
+#### Metaprogramming Madness
+
+* [Refactoring: Ruby Edition][refactoring-ruby]
+
+> While in most cases Ruby's dynamic nature provides great benefits, it can be misused. Some metaprogramming techniques can result in obfuscated code. The `method_missing` hook, for example, often results in code that is difficult to understand.
+
 #### Middle Man
 
 * p85
@@ -132,6 +144,12 @@ People new to objects usually are reluctant to use small objects for small tasks
 * p87
 
 A class that inherits from another, but hides or removes a lot of the functionality of the parent class.
+
+#### Repetitive Boilerplate
+
+* [Refactoring: Ruby Edition][refactoring-ruby]
+
+> One of the easiest ways to remove duplication is Extract Method. Extract the method and call it from multiple places. Some kinds of methods become so commonplace that we can go even further. Take for example attr_reader in Ruby. Implementing attribute readers is so common in object-oriented languages that the author of Ruby decided to provide a succinct way to declare them.
 
 #### Shotgun Surgery
 
@@ -370,10 +388,12 @@ You should be able to run *all* the unit tests with just one command.
 
 ## Bibliography
 
+* Fields, Jay *et al*. *[Refactoring: Ruby Edition][refactoring-ruby]*. Addison-Wesley Professional, October 25, 2009.
 * Fowler, Martin *et al*. *[Refactoring][refactoring]*. Addison-Wesley Professional, July 8, 1999.
 * Martin, Robert C. *[Clean Code][clean-code]*. Prentice Hall, August 11, 2008.
 
 [clean-code]: http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
 [fluent]: http://en.wikipedia.org/wiki/Fluent_interface
 [refactoring]: http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/
+[refactoring-ruby]: http://www.amazon.com/Refactoring-Ruby-Edition-Jay-Fields/dp/0321603508/
 [srp]: http://en.wikipedia.org/wiki/Single_responsibility_principle
