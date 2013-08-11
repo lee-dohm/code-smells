@@ -2,6 +2,8 @@
 
 "Code Smell" is a term coined by Kent Beck and Martin Fowler and introduced in Martin Fowler's book, [Refactoring][refactoring]. Code Smells are patterns of code that suggest there might be a problem, that there might be a better way of writing the code or that more design perhaps should go into it. They were originally intended to be used as a guide for when to refactor code. More recently though, I have found them to be very useful in code reviews as a succinct language for when and how to clean up certain chunks of code. I wanted to document and standardize this language so as to make code reviews more valuable.
 
+The book [Anti Patterns][antipatterns] by William J. Brown *et al* is another book that attempted to describe the same kinds of phenomena. While the Anti Patterns book came out over a year prior to Refactoring, I think the term "code smell" is better recognized. So that is the term I will use for these degenerate code templates.
+
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
 ## Why Ruby for the Code Examples?
@@ -299,6 +301,7 @@ A class that inherits from another, but hides or removes a lot of the functional
 * Fowler, Martin *et al*. *[Refactoring][refactoring]*. Addison-Wesley Professional, July 8, 1999.
 * Martin, Robert C. *[Clean Code][clean-code]*. Prentice Hall, August 11, 2008.
 
+[antipatterns]: http://www.amazon.com/AntiPatterns-Refactoring-Software-Architectures-Projects/dp/0471197130/
 [clean-code]: http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
 [fluent]: http://en.wikipedia.org/wiki/Fluent_interface
 [refactoring]: http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/
