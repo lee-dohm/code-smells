@@ -161,6 +161,10 @@ Typically a catch-all class that all the functionality that doesn't go anywhere 
 > Each class you create costs money to maintain and understand. A class that isn't doing enough to pay for itself should be eliminated. <br/>
 > -- *[Refactoring][refactoring]*
 
+While [Data Class](#data-class) and [Primitive Obsession](#primitive-obsession) are examples of classes not being powerful enough or simply not written, a Lazy Class is powerful enough to stand on its own. It simply isn't used much or at all. If a class just isn't used much, then perhaps its functionality needs to go someplace else.
+
+Striking the right balance between Lazy Class and [Feature Envy](#feature-envy) is sometimes challenging.
+
 ### Long Method
 
 * p76
