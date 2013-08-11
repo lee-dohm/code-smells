@@ -122,6 +122,8 @@ end
 > If you see the same code structure in more than one place, you can be sure that your program will be better if you find a way to unify them. <br/>
 > -- *[Refactoring][refactoring]*
 
+By far the most common code smell, Duplicate Code comes in many shapes and sizes. There are the obvious instances where chunks of code are simply copy and pasted around the code base. But there are also more subtle instances too where chunks of code are parameterized to one extent or another. Figuring out that bits of code are duplicates of each other and how to remove that duplication is what separates beginning developers from intermediate and advanced developers.
+
 ### Feature Envy
 
 * p80
