@@ -280,7 +280,7 @@ A class that inherits from another, but hides or removes a lot of the functional
 
 * p80
 
-> Shotgun surgery is similar to divergent change but is the opposite. You whiff this when every time you make a kind of change, you have to make a lot of little changes to a lot of different classes. When the changes are all over the place, they are hard to find, and it's easy to miss an important change. <br/>
+> Shotgun surgery is similar to [Divergent Change] but is the opposite. You whiff this when every time you make a kind of change, you have to make a lot of little changes to a lot of different classes. When the changes are all over the place, they are hard to find, and it's easy to miss an important change. <br/>
 > -- *[Refactoring][refactoring]*
 
 ### Speculative Generality
