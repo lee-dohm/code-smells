@@ -6,7 +6,7 @@ All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
 ## Why Ruby for the Code Examples?
 
-I chose to use [Ruby][ruby] for the code examples mostly because its ability to compactly express ideas will be able to quickly convey the point of the examples with a minimum of confusion.
+I chose [Ruby][ruby] for the code examples mostly because its ability to compactly express ideas will be able to quickly convey the point of the examples with a minimum of confusion.
 
 ## Code Smells That Suggest Refactoring
 
