@@ -277,6 +277,8 @@ A class that inherits from another, but hides or removes a lot of the functional
 > You get it when people say, "Oh, I think we need the ability to do this kind of thing someday" and thus want all sorts of hooks and special cases to handle things that aren't required. The result often is harder to understand and maintain. If all this machinery were being used, it would be worth it. But if it isn't, it isn't. The machinery just gets in the way, so get rid of it. <br/>
 > -- *[Refactoring][refactoring]*
 
+*See [You Ain't Gonna Need It][yagni]*
+
 ### Switch Statements
 
 * p82
@@ -303,3 +305,4 @@ A class that inherits from another, but hides or removes a lot of the functional
 [refactoring-ruby]: http://www.amazon.com/Refactoring-Ruby-Edition-Jay-Fields/dp/0321603508/
 [ruby]: http://www.ruby-lang.org
 [srp]: http://en.wikipedia.org/wiki/Single_responsibility_principle
+[yagni]: http://en.wikipedia.org/wiki/YAGNI
