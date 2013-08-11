@@ -4,6 +4,10 @@
 
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
+## Why Ruby for the Code Examples?
+
+I chose to use [Ruby][ruby] for the code examples mostly because its ability to compactly express ideas will be able to quickly convey the point of the examples with a minimum of confusion.
+
 ## Code Smells That Suggest Refactoring
 
 ### Alternative Classes with Different Interfaces
@@ -293,4 +297,5 @@ A class that inherits from another, but hides or removes a lot of the functional
 [fluent]: http://en.wikipedia.org/wiki/Fluent_interface
 [refactoring]: http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/
 [refactoring-ruby]: http://www.amazon.com/Refactoring-Ruby-Edition-Jay-Fields/dp/0321603508/
+[ruby]: http://www.ruby-lang.org
 [srp]: http://en.wikipedia.org/wiki/Single_responsibility_principle
