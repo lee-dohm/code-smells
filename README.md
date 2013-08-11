@@ -75,7 +75,7 @@ So what really makes this a code smell is that, very often, a Data Class has reg
 > Data items tend to be like children; they enjoy hanging around in groups together. Often you'll see the same three or four data items together in lots of places: fields in a couple of classes, parameters in many method signatures. Bunches of data that hang around together really ought to be made into their own object. <br/>
 > -- *[Refactoring][refactoring]*
 
-A simple example would be a graphics library that taxes `x` and `y` coordinates all over the place:
+A simple example would be a graphics library that takes `x` and `y` coordinate parameters all over the place:
 
 ```ruby
 def draw_line(start_x, start_y, end_x, end_y)
