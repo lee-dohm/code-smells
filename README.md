@@ -169,7 +169,7 @@ Striking the right balance between Lazy Class and [Feature Envy](#feature-envy) 
 
 * p76
 
-The longer a procedure is, the more difficult it is to understand.
+The longer a function is, the more difficult it is to understand.
 
 ### Long Parameter List
 
