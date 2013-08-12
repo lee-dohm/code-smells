@@ -34,7 +34,8 @@ Comments within functions should bear extra scrutiny. Comments within the body o
 ```ruby
 # Indicates whether `color` is a valid SVG color string.
 #
-# [SVG color descriptions](http://www.w3.org/TR/SVG/types.html#DataTypeColor) are one of the following:
+# [SVG color descriptions](http://www.w3.org/TR/SVG/types.html#DataTypeColor) are one of
+# the following:
 #
 # * RGB values
 #     * `#rgb`
