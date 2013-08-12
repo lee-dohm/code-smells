@@ -18,7 +18,7 @@ There are different levels of code smells. The original intent of code smells wa
 
 * p85
 
-Methods or classes that do the same thing but have different signatures.
+Classes that do similar things but have different interfaces should probably be refactored to have similar interfaces.
 
 ### Comments
 
