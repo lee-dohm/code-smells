@@ -12,6 +12,8 @@ I chose [Ruby][ruby] for the code examples mostly because its ability to compact
 
 ## Code Smells That Suggest Refactoring
 
+There are different levels of code smells. The original intent of code smells was not just as a signal that something was wrong with the code, but to give specific advice on how to refactor that code. This list contains smells that are of the refactoring class.
+
 ### Alternative Classes with Different Interfaces
 
 * p85
