@@ -4,6 +4,8 @@
 
 The book [Anti Patterns][antipatterns] by William J. Brown *et al* is another book that describes the same kinds of phenomena. While the Anti Patterns book came out over a year prior to Refactoring, I think the term "code smell" is better recognized. So that is what I will use as the overarching term for these degenerate code templates.
 
+This list is specifically written with a header for each smell to enable linking. One can simply craft a link with an anchor target of the rule name in lower case with hyphens instead of spaces to link to a specific rule. For example: `https://github.com/lee-dohm/code-smells#duplicate-code`
+
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
 ## Why Ruby for the Code Examples?
