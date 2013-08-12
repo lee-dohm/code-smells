@@ -2,7 +2,7 @@
 
 "Code Smell" is a term coined by Kent Beck and Martin Fowler and introduced in Martin Fowler's book, [Refactoring][refactoring]. Code Smells are patterns of code that suggest there might be a problem, that there might be a better way of writing the code or that more design perhaps should go into it. They were originally intended to be used as a guide for when to refactor code. More recently though, I have found them to be very useful in code reviews as a succinct language for when and how to clean up certain chunks of code. I wanted to document and standardize this language so as to make code reviews more valuable.
 
-The book [Anti Patterns][antipatterns] by William J. Brown *et al* is another book that describes the same kinds of phenomena. While the Anti Patterns book came out over a year prior to Refactoring, I think the term "code smell" is better recognized. So that is the term I will use for these degenerate code templates.
+The book [Anti Patterns][antipatterns] by William J. Brown *et al* is another book that describes the same kinds of phenomena. While the Anti Patterns book came out over a year prior to Refactoring, I think the term "code smell" is better recognized. So that is what I will use as the overarching term for these degenerate code templates.
 
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
