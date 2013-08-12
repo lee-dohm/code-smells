@@ -310,7 +310,7 @@ A class that inherits from another, but hides or removes a lot of the functional
 
 * [Refactoring: Ruby Edition][refactoring-ruby]
 
-> One of the easiest ways to remove duplication is [the Extract Method refactoring]. Extract the method and call it from multiple places. Some kinds of methods become so commonplace that we can go even further. Take for example attr_reader in Ruby. Implementing attribute readers is so common in object-oriented languages that the author of Ruby decided to provide a succinct way to declare them. <br/>
+> One of the easiest ways to remove duplication is [the Extract Method refactoring]. Extract the method and call it from multiple places. Some kinds of methods become so commonplace that we can go even further. Take for example `attr_reader` in Ruby. Implementing attribute readers is so common in object-oriented languages that the author of Ruby decided to provide a succinct way to declare them. <br/>
 > -- *[Refactoring: Ruby Edition][refactoring-ruby]*
 
 ### Shotgun Surgery
