@@ -29,6 +29,32 @@ Classes that do similar things but have different interfaces should probably be 
 
 Many comments aren't bad in and of themselves. But comments are often used to explain poorly-written code. In this case, the code should be rewritten to be more clear and the comments removed.
 
+Comments within functions should bear extra scrutiny. Comments within the body of functions are, almost without exception, unnecessary in well-written code. Well-written code consists of short, declarative functions that have good identifier names. It should be obvious *what* the code is doing from the code itself. What the code often cannot describe though is *why* the code is doing what it is doing. Here is an example from one of my projects:
+
+```ruby
+# Indicates whether `color` is a valid SVG color string.
+#
+# [SVG color descriptions](http://www.w3.org/TR/SVG/types.html#DataTypeColor) are one of the following:
+#
+# * RGB values
+#     * `#rgb`
+#     * `#rrggbb`
+#     * `rgb(255, 0, 0)` - *not currently supported*
+#     * `rgb(100%, 0%, 0%)` - *not currently supported*
+# * [Color names](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+def valid_color?(color)
+  return color =~ /^#[0-9A-Fa-f]{3}([0-9A-Fa-f]{3})?$/ if color[0] == '#'
+
+  COLOR_NAMES.include?(color)
+end
+```
+
+The code by itself is quite clear in what it is doing, so long as one understands regular expressions. But one wouldn't have the extra understanding of the *why* the code is written this way, that it is validating SVG color codes, or how exactly the code could or should be modified without this extra information. One could easily see someone coming along and adding or subtracting functionality from this method and introducing bugs if they did not know that this is intended specifically to conform to the SVG definition of a color.
+
+#### Documentation Comments
+
+Documentation comments are somewhat contentious. Some think they are important and some consider them to be a code smell. I personally believe that documentation comments are quite useful so long as they are well written and are kept up-to-date with the code. Well written documentation comments that are used to generate developer documentation can allow one to understand a code base much more quickly than rifling through the code itself. Consider this, when you are working with your pet language; would you want to dive deep into the code for the language itself to understand how opening a file really works? Or would you rather have some documentation that tells you how to open a file for writing?
+
 ### Data Class
 
 * p86
