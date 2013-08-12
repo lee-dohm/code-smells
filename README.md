@@ -200,7 +200,7 @@ salary = database.get_employee_by_name(employee_name).salary
 
 In the above example, the function calling the message chain has to understand that it needs to go to the database, get the company object, get the manager object from that, get the individual employee's object from there and finally get the salary. If the structure of how employees are stored changes, this code will break. It would be better to simply ask the database for the employee by name and then ask that for its salary, then the structure of how employees are stored can change and the code will continue to work.
 
-This is distinct from [fluent interfaces][fluent] in that with fluent interfaces all of the functions in the chain are essentially called on the first object.
+Message Chains are distinct from [fluent interfaces][fluent] in that with fluent interfaces all of the functions in the chain are essentially called on the first object.
 
 ```ruby
 # Fluent Interface
