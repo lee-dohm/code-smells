@@ -27,7 +27,7 @@ Classes that do similar things but have different interfaces should probably be 
 > It's surprising how often you look at thickly commented code and notice that the comments are there because the code is bad. <br/>
 > -- *[Refactoring][refactoring]*
 
-Many comments aren't bad in and of themselves. But comments are often used to explain poorly-written code. In this case, the code should be rewritten to be more clear and the comments removed.
+Many comments aren't bad in and of themselves. But comments are often used as a crutch to allow poorly written code to remain so. If at all possible, code should be written so that the comments are not necessary.
 
 Comments within functions should bear extra scrutiny. Comments within the body of functions are, almost without exception, unnecessary in well-written code. Well-written code consists of short, declarative functions that have good identifier names. It should be obvious *what* the code is doing from the code itself. What the code often cannot describe though is *why* the code is doing what it is doing. Here is an example from one of my projects:
 
