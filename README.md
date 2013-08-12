@@ -8,6 +8,8 @@ This list is specifically written with a header for each smell to enable linking
 
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
 ## Why Ruby for the Code Examples?
 
 I chose [Ruby][ruby] for the code examples mostly because its ability to compactly express ideas will be able to quickly convey the point of the examples with a minimum of confusion. As this document grows, examples in other languages may be added as needed.
