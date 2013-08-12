@@ -132,6 +132,8 @@ end
 
 By far the most common code smell, Duplicate Code comes in many shapes and sizes. There are the obvious instances where chunks of code are simply copy and pasted around the code base. But there are also more subtle instances too where chunks of code are parameterized to one extent or another. Figuring out that bits of code are duplicates of each other and how to remove that duplication is what separates beginning developers from intermediate and advanced developers.
 
+*See [Don't Repeat Yourself][dry]*
+
 ### Feature Envy
 
 * p80
@@ -316,6 +318,7 @@ A class that inherits from another, but hides or removes a lot of the functional
 
 [antipatterns]: http://www.amazon.com/AntiPatterns-Refactoring-Software-Architectures-Projects/dp/0471197130/
 [clean-code]: http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
+[dry]: http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself
 [fluent]: http://en.wikipedia.org/wiki/Fluent_interface
 [refactoring]: http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/
 [refactoring-ruby]: http://www.amazon.com/Refactoring-Ruby-Edition-Jay-Fields/dp/0321603508/
