@@ -276,7 +276,7 @@ This is the class-level version of [Feature Envy](#feature-envy).
 > People new to objects usually are reluctant to use small objects for small tasks, such as money classes that combine number and currency, ranges with an upper and a lower, and special strings such as telephone numbers and ZIP codes. <br/>
 > -- *[Refactoring][refactoring]*
 
-Primitive Obsession is an over-reliance on the built-in simple data types in a language such as integers, floating-point numbers, strings and the like. For example, a string can hold an hexadecimal color code such as `C0C0C0`. But even a simple `Color` class can help reduce bugs:
+Primitive Obsession is an over-reliance on the built-in simple data types in a language such as integers, floating-point numbers, strings and the like. For example, a string can hold a hexadecimal color code such as `C0C0C0`. But even a simple `Color` class can help reduce bugs:
 
 ```ruby
 class Color
