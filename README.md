@@ -14,7 +14,7 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
 
 ## Why Ruby for the Code Examples?
 
-I chose [Ruby][ruby] for the code examples mostly because its ability to compactly express ideas will be able to quickly convey the point of the examples with a minimum of confusion. As this document grows, examples in other languages may be added as needed.
+I chose [Ruby][ruby] for the code examples mostly because its ability to compactly express ideas will be able to quickly convey the point of the examples with a minimum of confusion. As we gather code smells from different languages and styles of writing code, examples from other languages will be added.
 
 ## Code Smells That Suggest Refactoring
 
