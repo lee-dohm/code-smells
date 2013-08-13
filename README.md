@@ -175,6 +175,9 @@ By far the most common code smell, Duplicate Code comes in many shapes and sizes
 > A method that seems more interested in a class other than the one it actually is in. The most common focus of the envy is the data. We've lost count of the times we've seen a method that invokes half-a-dozen getting methods on another object to calculate some value. <br/>
 > -- *[Refactoring][refactoring]*
 
+> Private methods are just another class waiting to be born. <br/>
+> -- *Unknown*
+
 This is the function-level version of [Middle Man](#middle-man).
 
 ### Inappropriate Intimacy
