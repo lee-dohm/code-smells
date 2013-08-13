@@ -4,6 +4,8 @@
 
 The book [Anti Patterns][antipatterns] by William J. Brown *et al* is another book that describes the same kinds of phenomena. While the Anti Patterns book came out over a year prior to Refactoring, I think the term "code smell" is better recognized. So that is what I will use as the overarching term for these degenerate code templates.
 
+One thing to note about this initial list of code smells is that it is very much focused on object-oriented code. The book, *Refactoring*, was written specifically with [Java][java] and its purely object-oriented approach in mind. Over time, I would like to include code smells from a wider variety of languages and approaches, whether imperative or functional languages, object-oriented or procedure-based, or even further afield like SQL. But for now, we're going to start here with object-oriented code smells.
+
 This list is specifically written with a header for each smell to enable linking. One can simply craft a link with an anchor target of the rule name in lower case with hyphens instead of spaces to link to a specific rule. For example: `https://github.com/lee-dohm/code-smells#duplicate-code`
 
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
@@ -353,6 +355,7 @@ A class that inherits from another, but hides or removes a lot of the functional
 [definition]: http://martinfowler.com/bliki/CodeSmell.html
 [dry]: http://en.wikipedia.org/wiki/Don%27t_Repeat_Yourself
 [fluent]: http://en.wikipedia.org/wiki/Fluent_interface
+[java]: http://en.wikipedia.org/wiki/Java_(programming_language)
 [refactoring]: http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/
 [refactoring-ruby]: http://www.amazon.com/Refactoring-Ruby-Edition-Jay-Fields/dp/0321603508/
 [ruby]: http://www.ruby-lang.org
