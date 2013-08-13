@@ -38,17 +38,16 @@ Many comments aren't bad in and of themselves. But comments are often used as a 
 Comments within functions should bear extra scrutiny. Comments within the body of functions are, almost without exception, unnecessary in well-written code. Well-written code consists of short, declarative functions that have good identifier names. It should be obvious *what* the code is doing from the code itself. What the code often cannot describe though is *why* the code is doing what it is doing. Here is an example from one of my projects:
 
 ```ruby
-# Indicates whether `color` is a valid SVG color string.
+# Indicates whether color is a valid SVG color string.
 #
-# [SVG color descriptions](http://www.w3.org/TR/SVG/types.html#DataTypeColor) are one of
-# the following:
+# SVG color descriptions are one of the following:
 #
 # * RGB values
-#     * `#rgb`
-#     * `#rrggbb`
-#     * `rgb(255, 0, 0)` - *not currently supported*
-#     * `rgb(100%, 0%, 0%)` - *not currently supported*
-# * [Color names](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+#     * #rgb
+#     * #rrggbb
+#     * rgb(255, 0, 0) - not currently supported
+#     * rgb(100%, 0%, 0%) - not currently supported
+# * SVG Color names
 def valid_color?(color)
   return color =~ /^#[0-9A-Fa-f]{3}([0-9A-Fa-f]{3})?$/ if color[0] == '#'
 
