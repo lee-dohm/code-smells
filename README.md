@@ -10,15 +10,15 @@ One thing to note about this initial list of code smells is that it is very much
 
 This list is specifically written with a header for each smell to enable linking. One can simply craft a link with an anchor target of the rule name in lower case with hyphens instead of spaces to link to a specific rule. For example: `https://github.com/lee-dohm/code-smells#duplicate-code`
 
+I use the terms "function" and "method" interchangeably.
+
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
 
-## Why Ruby for the Code Examples?
+### Why Ruby for the Code Examples?
 
 I chose [Ruby][ruby] for the code examples mostly because its ability to compactly express ideas will be able to quickly convey the point of the examples with a minimum of confusion. As we gather code smells from different languages and styles of writing code, examples from other languages will be added.
 
-## Code Smells That Suggest Refactoring
-
-There are different levels of code smells. The original intent of code smells was not just as a signal that something was wrong with the code, but to give specific advice on how to refactor that code. This list contains smells that are of the refactoring class.
+## List of Code Smells
 
 ### Alternative Classes with Different Interfaces
 
