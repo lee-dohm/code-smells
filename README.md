@@ -6,13 +6,11 @@ The book [Anti Patterns][antipatterns] by William J. Brown *et al* is another bo
 
 One thing to note about this initial list of code smells is that it is very much focused on object-oriented code. The book, *Refactoring*, was written specifically with [Java][java] and its purely object-oriented approach in mind. Over time, I would like to include code smells from a wider variety of languages and approaches, whether imperative or functional languages, object-oriented or procedure-based, or even further afield like SQL. But for now, we're going to start here with object-oriented code smells.
 
+## Notes
+
 This list is specifically written with a header for each smell to enable linking. One can simply craft a link with an anchor target of the rule name in lower case with hyphens instead of spaces to link to a specific rule. For example: `https://github.com/lee-dohm/code-smells#duplicate-code`
 
 All page numbers are from [Refactoring][refactoring] unless otherwise noted.
-
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
 
 ## Why Ruby for the Code Examples?
 
@@ -352,6 +350,12 @@ A class that inherits from another, but hides or removes a lot of the functional
 * Fields, Jay *et al*. *[Refactoring: Ruby Edition][refactoring-ruby]*. Addison-Wesley Professional, October 25, 2009.
 * Fowler, Martin *et al*. *[Refactoring][refactoring]*. Addison-Wesley Professional, July 8, 1999.
 * Martin, Robert C. *[Clean Code][clean-code]*. Prentice Hall, August 11, 2008.
+
+## License
+
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
 
 [antipatterns]: http://www.amazon.com/AntiPatterns-Refactoring-Software-Architectures-Projects/dp/0471197130/
 [clean-code]: http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
