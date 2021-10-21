@@ -1,5 +1,24 @@
 # Design Processes
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Design Processes](#design-processes)
+    - [Analysis Model Storming](#analysis-model-storming)
+        - [Screen sketeches (inclusive tool)](#screen-sketeches-inclusive-tool)
+    - [Design Model Storming](#design-model-storming)
+        - [CRC cards (Class-Responsibility-Collaboration cards)](#crc-cards-class-responsibility-collaboration-cards)
+            - [Notations in CRC cards](#notations-in-crc-cards)
+            - [Using CRC cards](#using-crc-cards)
+            - [CRC cards: working through scenarios](#crc-cards-working-through-scenarios)
+    - [Scenario base design](#scenario-base-design)
+        - [Flow charts](#flow-charts)
+        - [Use cases](#use-cases)
+
+<!-- markdown-toc end -->
+
+
+
 [Design Processes][agilemodeling] Design processes are creative processes and there are often more than 1 solution to a problem. However applying techniques well doesn’t guarantee that our designs will always be good.
 
 Design processes require a lot of practice..
