@@ -24,7 +24,7 @@ You and the stakeholder analyse the requirements and draw out several examples o
 Stakeholder friendly model storming
 
 ### Screen sketeches (inclusive tool)
-![screen sketch](/uiSketchStudentEdit.JPG "Example of screen sketches")
+![screen sketch](/design-process/uiSketchStudentEdit.JPG "Example of screen sketches")
 
 ## Design Model Storming
 
@@ -37,7 +37,7 @@ Visual Basic programmers may choose to draw flow charts to model a complex busin
 
 ### CRC cards
 
-![CRC cards](/crcCardExample.jpg "Example of CRC card")
+![CRC cards](/design-process/crcCardExample.jpg "Example of CRC card")
 
 
 
