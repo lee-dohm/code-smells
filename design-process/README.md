@@ -90,7 +90,7 @@ Visualise you as the customer or user and try to come up with possible scenarios
 
 Use cases are very easy to write and is very inclusive for stakeholders because they are use to understand. However they are not useful in visualising the design?
 
-![Use case](/design-process/process3.png "Use cases")
+![Use case](/design-process/process4.png "Use cases")
 
 
 [agilemodeling]: http://agilemodeling.com/essays/modelStorming.htm
