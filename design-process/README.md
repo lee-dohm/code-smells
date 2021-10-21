@@ -40,6 +40,21 @@ Visual Basic programmers may choose to draw flow charts to model a complex busin
 ![CRC cards](/design-process/crcCardExample.jpg "Example of CRC card")
 
 
+## Scenario base design
+
+Visualise you as the customer or user and try to come up with possible scenarios and actions.
+
+* storyboard, use case, activity diagram, plain text, etc.
+* this may come out of requirements or analysis (depending on whether thing is “the system” or some small part of it) Work through your scenario(s)
+* trace through your design as it stands Modify/rework design to support scenario effectively
+* keep <kbd>quality properties</kbd> in mind Repeat with additional scenarios
+
+
+![buying jeans](/design-process/process1 "Buying jeans")
+
+![taking diabetes meds](/design-process/process2 "taking diabetes medication")
+
+
 
 [agilemodeling]: http://agilemodeling.com/essays/modelStorming.htm
 [inclusivetools]: http://agilemodeling.com/essays/inclusiveModels.htm
