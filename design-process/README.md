@@ -50,9 +50,9 @@ Visualise you as the customer or user and try to come up with possible scenarios
 * keep <kbd>quality properties</kbd> in mind Repeat with additional scenarios
 
 
-![buying jeans](/design-process/process1 "Buying jeans")
+![buying jeans](/design-process/process1.png "Buying jeans")
 
-![taking diabetes meds](/design-process/process2 "taking diabetes medication")
+![taking diabetes meds](/design-process/process2.png "taking diabetes medication")
 
 
 
