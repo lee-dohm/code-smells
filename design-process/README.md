@@ -35,10 +35,39 @@ Java programmers will often work through complex code by sketching a quick UML s
 Visual Basic programmers may choose to draw flow charts to model a complex business rule. Regardless of the model(s) that you need to create, you're still model storming.
 
 
-### CRC cards
+### CRC cards (Class-Responsibility-Collaboration cards)
 
 ![CRC cards](/design-process/crcCardExample.jpg "Example of CRC card")
 
+<kbd>CRC cards</kbd> are individual cards that represent a class. Often they have two rows: one representing the responsibilities of the class and collaborators (i.e. other classes that helps with the responsibilities).
+
+#### Notations in CRC cards
+You don’t need a special notation for doing this. But some people find an alternative notation useful at some points
+
+Invented by Ward Cunningham as an OO design teaching tool
+
+#### Using CRC cards
+We start with only one or two obvious cards and start. Always on the lookout for new potential responsbilities by playing “what-if”’ (with scenarios). If the situation calls for a new responsibility, either:
+
+– add the responsibility to one of the objects, or
+– create a new object
+
+Add collaborations as we go.
+
+If design can be improved, rewrite the card(s)
+
+Use a magnet to stick them on a whiteboard, if available
+
+#### CRC cards: working through scenarios
+   
+
+ * [ ] Have different people “play the object” during a scenario
+
+ * [ ] Messages between objects -> “Hey Unit, gimme a list of students enrolled in you…”
+
+ * [ ] Pick up the card whose role they are assuming while “executing” a scenario
+
+ * [ ] When a new responsibility emerges, add it!
 
 ## Scenario base design
 
@@ -49,11 +78,19 @@ Visualise you as the customer or user and try to come up with possible scenarios
 * trace through your design as it stands Modify/rework design to support scenario effectively
 * keep <kbd>quality properties</kbd> in mind Repeat with additional scenarios
 
-
 ![buying jeans](/design-process/process1.png "Buying jeans")
 
 ![taking diabetes meds](/design-process/process2.png "taking diabetes medication")
 
+### Flow charts
+![flowchart of student enrolment](/design-process/process3.png "flowchart of student enrolment")
+
+
+### Use cases
+
+Use cases are very easy to write and is very inclusive for stakeholders because they are use to understand. However they are not useful in visualising the design?
+
+![Use case](/design-process/process3.png "Use cases")
 
 
 [agilemodeling]: http://agilemodeling.com/essays/modelStorming.htm
