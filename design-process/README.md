@@ -24,7 +24,7 @@ You and the stakeholder analyse the requirements and draw out several examples o
 Stakeholder friendly model storming
 
 ### Screen sketeches (inclusive tool)
-![screen sketch](/design-process/uiSketchStudentEdit.JPG "Example of screen sketches")
+![screen sketch](/design-process/uiSketchStudentEdit.jpeg "Example of screen sketches")
 
 ## Design Model Storming
 
