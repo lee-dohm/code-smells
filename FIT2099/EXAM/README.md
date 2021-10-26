@@ -1,5 +1,25 @@
 # FIT2099 Exam
 
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [FIT2099 Exam](#fit2099-exam)
+    - [Code Revision Example](#code-revision-example)
+        - [Circle](#circle)
+        - [Triangle](#triangle)
+    - [Code Critique Example](#code-critique-example)
+        - [Solid principles violated](#solid-principles-violated)
+    - [#### Solution](#-solution)
+    - [Design Critique Example](#design-critique-example)
+        - [Issues](#issues)
+    - [Design Example](#design-example)
+        - [Question 1:](#question-1)
+        - [Question 2:](#question-2)
+    - [#### Solution](#-solution-1)
+
+<!-- markdown-toc end -->
+
 ## Code Revision Example
 ```java
 public interface Shape {
