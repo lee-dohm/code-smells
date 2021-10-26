@@ -10,13 +10,11 @@
         - [Triangle](#triangle)
     - [Code Critique Example](#code-critique-example)
         - [Solid principles violated](#solid-principles-violated)
-    - [#### Solution](#-solution)
     - [Design Critique Example](#design-critique-example)
         - [Issues](#issues)
     - [Design Example](#design-example)
         - [Question 1:](#question-1)
         - [Question 2:](#question-2)
-    - [#### Solution](#-solution-1)
 
 <!-- markdown-toc end -->
 
