@@ -1,7 +1,6 @@
 # Teams and Team-work
 
-## Teams
-### Teams vs group
+## Teams ### Teams vs group
 * A group is a collection of people
 * A team is a group that is (or is expected to be)
   * cohesive
@@ -48,7 +47,7 @@ structure
 
 ### Autocracy
 
-![autocracy](autocracy.png)
+![autocracy](autocracy.png**
 
 * Sometimes students think this is
 what teams should be like
@@ -60,4 +59,57 @@ members carry them out
   * boss is a single point of failure 
   * if they get sick or are transferred, team cannot function
 
+### Anarchy
+* This can arise if teams fear
+autocracy but don’t know what
+else they can do
+  * Good news: no boss!
+  * Bad news: nobody knows what to do!
+  
+### Democracy
+* Sounds like a simple idea: make all decisions collaboratively
+* One problem is that “all decisions” might
+turn out to be a lot
+  * team gets bogged down in decision-making
+  * little gets achieved
+* Another problem: dilution of individual responsibility
+  * if anything goes wrong, it’s nobody’s fault
+  * so less incentive to make good decisions
+  
+## IDEAL: Collaborative teams
+***Effective teams tend to have a fairly flat structure***
+  * team members may have different responsibilities
+* Members make decisions within their area of expertise
+  * so all teammates participate in decision making to some extent
+    * avoids the problems of autocracy
+    * avoids the problems of democracy
+    * don’t have to consult the whole team for
+      * every decision
+      * only those with relevant expertise
+
+# How to form teams
+***All teams are groups, but not all groups are teams***
+* Suppose we want to create a team
+
+* We start out with a group of people who may have no affiliation or shared
+experiences at all
+
+* how do these people develop into a team?
+
+  * Two things to bear in mind:
+
+    * <span style="color: #1e90ff">Interpersonal/group dynamics</span>: how do teammates behave towards one
+    another?
+
+    * <span style="color: #1e90ff"> task focus </span>: how do teammates behave towards the work they are doing?
+
 ## Tuckman model
+* Tuckman proposed a model for group development in 1965
+* Teams go through these stages:
+  * Forming
+  * Storming
+  * Norming
+  * Performing
+* In 1977, Tuckman and Jensen added a fifth stage:
+  * Adjourning
+* Let’s see how group dynamics and task focus change as teams progress through these stages.
