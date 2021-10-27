@@ -178,11 +178,37 @@ This question is about team structure and teamwork.
 a) According to the Scrum model, an Agile team may have as many developers as you like but should only ever have one Product Owner. What risks are likely to arise if a team decides to appoint more than one Product Owner?
 Write a couple of paragraphs (3 marks)
 
+
+TODO improve
 The product owner is the sole individual responsible for maximising return on investment (ROI). To do so they organise sprint planning and deadline. If there were multiple product owners, there would be conflicts in requirements for backlog items because different product owners often have their own views. Their different approaches in organising meetings, PBIs, user stories, interating with stakeholders may make things complicated and harder
 
 
 b) One of the practices that DeMarco and Lister identified as “teamicidal” (i.e., bad for teamwork) is having team members spread out through the building instead of sitting together. What are some of the challenges that Agile teams face if their members are not located close by? Suggest some ways that teams might overcome these problems, particularly in modern working environments. Write about half a page. (4 marks)
 
+> TEAMS work best when members have spontaneous, casual interactions as well as planned and guided interactions <br />
+> -- Lecture slides
+
+This violates **Physical Separation** teamicide point
+
+When teams are spread out they in a building they are physically separated. They cannot form spontaneous discussion which could be deemed creative. Also this is detrimental to a cross-functional team in sharing their domain of knowledge and multi-learning.
+
+Ways to facilitate spontaneous discussions in workplaces or in a work environment is by having tables where people can commune and discuss things closely. Another aspect is **pair programming** where two people can program together simultaneously on the same table or chat to discuss spontaneous ideas.
+
+Big tech companies have facilities such as sport as well as discussion rooms and tables for this aspect as well. This allows teams to develop as welBig tech companies have facilities such as sport as well as discussion rooms and tables for this aspect as well. This allows teams to develop as well.
+
+During lockdowns, it is useful to establish virtual meeting rooms where people can chat and perform pair programming. Alternatively, a virtual voice chat can also be useful to combat this problem.
+
 c) What is siloing, and why is it considered a bad thing? Write a couple of sentences. (2 marks)
 
+Siloing occurs when a particular group or individual that have access to unique set of skills and access to data only they can access.
+> e.g. only QA team know about QA, only DBAs know about databases, etc.
+
+Problems can occur for example for sprints that doesn't touch anything related to part related to the particular skillset.Or when a part of the app require more app in a sprint but only a select group of people know how to perform the tasks.
+
+So team might waste developer time, or struggle to complete sprint backlog
+
 d) Explain how DevOps approaches help overcome siloing, and how this improves outcomes for teams. Write about half a page. (4 marks)
+
+DevOps means breaking down silos so that developers, operators, and QA staff all collaborate.
+
+[silo]: "https://www.agiledrop.com/blog/3-key-considerations-successful-agile-transformation
