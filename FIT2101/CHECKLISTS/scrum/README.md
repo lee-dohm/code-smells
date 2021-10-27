@@ -3,6 +3,7 @@
   * [ ] Cross-functional
   * [ ] Self-organising
   * [ ] Multi-learning
+  * [ ] multi-disciplinary programmers (no siloing)
   * [ ] Sustainable pace
   * [ ] Producing potentially shippable code each sprint, definition of done and potentially shippable increment.
   * [ ] Team focused on one product or app for one sprint
