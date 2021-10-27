@@ -1,6 +1,8 @@
 # Teams and Team-work
 
-## Teams ### Teams vs group
+## Teams 
+
+### Teams vs group
 * A group is a collection of people
 * A team is a group that is (or is expected to be)
   * cohesive
