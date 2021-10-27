@@ -7,6 +7,8 @@
 
 ### Plug-Compatible Programming Units (people are not tools, each person can take many roles)
 
+> it's just saying in traditional or old methodologies people are treated as replaceable parts and that this works for predictable processes but humans hence programmers are not 'plug-ins' and are treated as replaceable parts. The effect of this is it dehumanizes the workforce and Martin Fowler states the result is the good people end up moving out to where they aren't treated as so and such management is left with people who end up actually being replaceable parts which (imo) is bad for innovation and other such things a business should try maintain.
+
 #### Are the people involved in software development replaceable parts? 
 
 One of the key features of agile methods is that they reject this assumption.
