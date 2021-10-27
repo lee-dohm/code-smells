@@ -193,6 +193,8 @@ If your program is architected in a way that breaks the OCP, then **adding new f
 | Area(): double              |        |
 | SetFoci(a: Point, b: Point) | ❌     |
 | setMajorAxis(double)        | ❌     |
+| GetFocusA: Point            |        |
+| GetFocusB: Point            |        |
 
 
 But circle inherits from ellipse. And circle don't have foci... 
