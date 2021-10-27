@@ -52,6 +52,8 @@ Impossible to measure productivity. For example sprint velocity and daily effort
 > -- Robert Austin
 
 You have to choose between measurement-based management and delegatory management (where the doers decide how to do the work). 
+
+
 | measurement-based management                              | delegatory style management |
 | :-:                                                       | :-:                         |
 | Suited for repetitive trivial work                        |                             |
