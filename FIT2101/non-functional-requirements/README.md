@@ -1,3 +1,4 @@
+
 # Non-functional requirements (NFRs)
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
@@ -11,10 +12,13 @@
         - [Staged rollouts](#staged-rollouts)
         - [Stakeholder mapping](#stakeholder-mapping)
         - [Knowledge domain](#knowledge-domain)
+        - [Hire an expert](#hire-an-expert)
+        - [Non functional requirement in user stories](#non-functional-requirement-in-user-stories)
 
 <!-- markdown-toc end -->
 
-
+> I prefer to think of non-functional requirements as "constraints" we put on the system. <br />
+> -- [Mike John][Mike]
 
 **Hard to get right**
 
@@ -118,11 +122,31 @@ Try and see as the system evolves through iterations, once the problem is visibl
 
 ### Stakeholder mapping
 
-Through stakeholder mapping, find stakeholders who might be related by this non###functional requirement in which case could be users or clients and ask them to voice their concerns.
+Through stakeholder mapping, find stakeholders who might be related by this non-functional requirement in which case could be users or clients and ask them to voice their concerns.
 
 ### Knowledge domain
 
 If you sense any potential non functional requirement in the sphere of knowledge you can use this knowledge to include the NFRs.
 
-Or, hire people are privy in the knowledge of this particular non-functional requirement and ask them for expert advice. Examples include white hat or ethical hacks to perform a penetration test to test if the system is secure enough. Or hire legal experts to see if the system follow regulations relating to its securities.
 
+### Hire an expert
+Hire people are privy in the knowledge of this particular non-functional requirement and ask them for expert advice. 
+
+Examples include white hat or ethical hacks to perform a penetration test to test if the system is secure enough. 
+
+Or hire legal experts to see if the system follow regulations relating to its securities.
+
+
+
+### Non functional requirement in user stories
+
+NRFs can be captured by user stories:
+
+> As a customer, I **want** to be able to run your product on all versions of Windows from Windows 95 on. <br />
+> As the CTO, I **want** the system to use our existing orders database rather than create a new one, so that we don't have one more database to maintain. <br />
+> As a user, I **want** the site to be available 99.999 percent of the time I try to access it, so that I don't get frustrated > and find another site to use. <br />
+> As someone who speaks a Latin-based language, I might **want** to run your software someday. <br />
+> As a user, I **want** the driving directions to be the best 90 percent of the time, and reasonable 99 percent of the time. <br />
+
+
+[Mike]: https://www.mountaingoatsoftware.com/blog/non-functional-requirements-as-user-stories
