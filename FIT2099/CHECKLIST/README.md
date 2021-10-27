@@ -16,3 +16,13 @@
 * [ ] Draw new CR cards if necessary
 * [ ] Draw new activity diagram if necessary
 * [ ] State design principles backing new design (e.g. SOLID, connnascence etc). Justify all changes ***using facts or principles***.
+
+## Reducing Dependencies
+* [ ] Avoid public Attributes
+* [ ] Only make methods public where necessary
+    * Try to make everything private when you first create them.
+* [ ] Keep the class package-private if not needed!
+* [ ] Use protected sparingly
+    * Try to use methods instead of attributes
+    * Protected data can be accessed by subclasses.
+
