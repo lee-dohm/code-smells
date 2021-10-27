@@ -1,5 +1,40 @@
 # Agile checklist
 
+## Major checklist
+
+  * [ ] Responsibilities are decentralised. (no micromanagement, flat team structure, )
+
+  * [ ] Reporting requirements change TODO
+
+  * [ ] Testing is done frequently (regression test, progression testing) TODO
+
+  * [ ] team does their own estimation (self-organising and agile)
+
+## Minor checklist (small deets)
+
+
+* [ ] organizational culture is opposed to uncertainty or change
+
+* [ ] you have a lot of reporting requirements
+
+* [ ] company structure requires a traditional Project Manager to be in charge
+
+* [ ] they don’t have time to spend with developers
+
+* [ ] they require a very predictable process
+
+* [ ] needs a very large team, or has stringent quality requirements
+
+* [ ] requirements are known in advance, well-understood,and won’t change
+
+* [ ] team can’t meet frequently (e.g. time zone differences)
+
+* [ ] team is very large
+
+* [ ] team does’t know each other well,or there is distrust.
+
+* [ ] team lacks the maturity to self-manage
+
 ## [Scrum manifesto](http://agilemanifesto.org/principles.html)
 
   * [ ] Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.

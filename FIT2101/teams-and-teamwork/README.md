@@ -82,7 +82,7 @@ turn out to be a lot
 ***Effective teams tend to have a fairly flat structure***
   * team members may have different responsibilities
 * Members make decisions within their area of expertise
-  * so all teammates participate in decision making to some extent
+  * so all **teammates participate in decision making to some extent**
     * avoids the problems of autocracy
     * avoids the problems of democracy
     * don’t have to consult the whole team for
