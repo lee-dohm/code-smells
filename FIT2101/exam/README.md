@@ -61,44 +61,51 @@ Instead of relying on a small technical team in the head office. Rely on an exte
 
 # Question 2 (8 Marks)
 
-> Data centre flooded, all data is lost
-> Data centre burns down 
+> Data centre flooded, all data is lost <br />
+> Data centre burns down <br />
 is way to specific. The risks should cover a broader range of issues that could happen to data centres for example, server hosting app is down.
 
-> Team member gets sick, leaves project
-> Team member wins lottery, leaves project
+> Team member gets sick, leaves project<br />
+> Team member wins lottery, leaves project<br />
 Combine these two risks into one and make them more generalised. E.g. Team member(s) leave due to personal reasons
 
-> New developer on project doesn't know java
+> New developer on project doesn't know java<br />
 * This risk description is directly finger pointing a team member and it's a bit specific.
 * Instead make it more generalised and broader. E.g. Team not cross-functional (lacking certain technological stacks**
 
 **Inconsistent ranking system**
 
-> 0.0001
+> 0.0001<br />
+
 0.0001 is not only inconsistent with the rest but also very vague. 0.0001 could represent anything
 
-> 0
+> 0<br />
+
 0 is inconsistent with the rest of the likelihoods and also it is not useful information.
 
-> Already happened
+> Already happened<br />
+
 This is not a type of likelihood. The format of the risk register should be consistent
 
 **Esoteric shapes for impacts**
-> crosses and triangles
+> crosses and triangles<br />
+
 Instead should grade them alphabetically or numerically in a certain range. Or even with words (minor, medium, catastrophic**
 
 **Vague mitigation strategies**
-> Program doesn't work
-> Avoid writing buggy code. Fix program if it stops working.
+> Program doesn't work<br />
+> Avoid writing buggy code. Fix program if it stops working.<br />
+
 Instead propose a detailed fix. Avoiding writing buggy code is something that is universally accepted by every person so it is often not a strategy.
 Strategies can be following a certain coding standard, doing regular regression or progression tests. Incorporate unitesting to CI/CD pipeline etc
 
-> Supply new developer with Java books and revaluate performance periodically
+> Supply new developer with Java books and revaluate performance periodically<br />
+
 Again, this seems like fingerpointing and may put the indicative developer on the spot.
 
 **not useful far-fetched risks**
-> Zombie apocalypse, civilisation breaks down
+> Zombie apocalypse, civilisation breaks down<br />
+
 This is a nearly impossible scenario and since there are many different scenarios that are near impossible. It is best to not list them in the risk register
 
 
