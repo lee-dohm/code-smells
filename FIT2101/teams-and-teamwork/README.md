@@ -47,7 +47,7 @@ structure
 
 ### Autocracy
 
-![autocracy](autocracy.png**
+![autocracy](autocracy.png)
 
 * Sometimes students think this is
 what teams should be like
