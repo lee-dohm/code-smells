@@ -137,12 +137,15 @@ The product owner may refuse or cannot articulate this NFR since it is not withi
 **Requirement elicitation**
 
 - Staged rollouts
+
 Try and see as the system evolves through iterations, once the problem is visible tell the product owner and stakeholders to include the new NFR. This is best for usability related issues. Since the said issue relates to security, it is not best practice.
 
 - Stakeholder mapping
+
 Through stakeholder mapping, find stakeholders who might be related by this non-functional requirement in which case could be users or clients and ask them to voice their concerns.
 
 - Knowledge domain
+
 If you sense any potential non functional requirement in the sphere of knowledge you can use this knowledge to include the NFRs.
 
 Or, hire people are privy in the knowledge of this particular non-functional requirement and ask them for expert advice. Examples include white hat or ethical hacks to perform a penetration test to test if the system is secure enough. Or hire legal experts to see if the system follow regulations relating to its securities.
