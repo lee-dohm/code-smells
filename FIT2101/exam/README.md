@@ -63,13 +63,16 @@ Instead of relying on a small technical team in the head office. Rely on an exte
 
 > Data centre flooded, all data is lost <br />
 > Data centre burns down <br />
+
 is way to specific. The risks should cover a broader range of issues that could happen to data centres for example, server hosting app is down.
 
 > Team member gets sick, leaves project<br />
 > Team member wins lottery, leaves project<br />
+
 Combine these two risks into one and make them more generalised. E.g. Team member(s) leave due to personal reasons
 
 > New developer on project doesn't know java<br />
+
 * This risk description is directly finger pointing a team member and it's a bit specific.
 * Instead make it more generalised and broader. E.g. Team not cross-functional (lacking certain technological stacks**
 
