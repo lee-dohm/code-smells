@@ -1,5 +1,6 @@
 # Practice exam
 
+
 ## Question 1 (4 + 3 + 2 + 3 = 12 Marks)
 Here is an idea for a product:
 Rovr is a service that helps dog owners find people to provide services for their pets. You can think
@@ -220,7 +221,7 @@ DevOps means breaking down silos so that developers, operators, and QA staff all
 
 > Sprint reviews are no longer conducted because the team no longer feels that they are necessary. Instead, software is deployed to a staging server as soon as it passes unit tests and is manually pushed to production once it has passed user acceptance tests. This means that they are shipping new features much more often than they used to. The team does make sure to conduct a retrospective every two or three weeks to consider how their process can be made more efficient and effective.
 
-a) Is this still Scrum? Why/why not? Write up to half a page. (4 marks)
+### a) Is this still Scrum? Why/why not? Write up to half a page. (4 marks)
 
 This is no longer Scrum. Although there are still aspects of scrum left such as having a sole product owner and a scrum master. However the product owner and scrum master are not performing their tasks appropriately.
 
@@ -238,9 +239,7 @@ Sprint review is a pillar of scrum as well. It is to see and learn what is going
 
 The retrospective should be conducted after every sprint and identify areas the team did well and areas that need improvement. Strategies should be put forward to mitigate these issues. It is another inspect and adapt process instead regarding the process and environment. It is not only a meeting to help with improving efficiency and effectiveness but rectifying things that are not working and need to be addressed.
 
-
-
-b) Is this still Agile? Why/why not? Write up to half a page. (4 marks)
+### b) Is this still Agile? Why/why not? Write up to half a page. (4 marks)
 
 No because this the methodology employed no longer is flexibility to changes. 
 
@@ -252,7 +251,7 @@ No longer there is continuous attention to technical excellence and good design 
 
 No longer self-organising. No daily scrum meeting to say what each team member did yesterday going to do today and barriers.
 
-c) Have the changes to this process increased or decreased the risks involved? What are the trade-offs (i.e., costs and benefits)? Write about half a page. (4 marks)
+### c) Have the changes to this process increased or decreased the risks involved? What are the trade-offs (i.e., costs and benefits)? Write about half a page. (4 marks)
 
 There are definitely more risk involved. Quality assurance could be not met since some completed "tasks" could be not sufficiently tested. Also, end users or business people may not be satsified since there is no involvement from them. Since the scrum master seems to do minimal amount of teaching, coaching and supporting role. This could lead the team astray and and team mates may leave the team or cause the sprint velocity or quality to decrease.
 
