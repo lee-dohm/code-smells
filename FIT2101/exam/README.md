@@ -85,7 +85,7 @@ Combine these two risks into one and make them more generalised. E.g. Team membe
 This is not a type of likelihood. The format of the risk register should be consistent
 
 **Esoteric shapes for impacts**
-‡, ∆
+> crosses and triangles
 Instead should grade them alphabetically or numerically in a certain range. Or even with words (minor, medium, catastrophic**
 
 **Vague mitigation strategies**
