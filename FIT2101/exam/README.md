@@ -111,5 +111,38 @@ Again, this seems like fingerpointing and may put the indicative developer on th
 
 This is a nearly impossible scenario and since there are many different scenarios that are near impossible. It is best to not list them in the risk register
 
+## Question 3 (2 + 3 + 4 = 9 marks) This question is about requirements. 
+User stories can be evaluated using the INVEST criteria. These criteria say that user stories should be “Independent, Negotiable, Valuable, Estimable, Small, and Testable”. 
 
+### Independent TODO improve
+Different user stories should not have overlapping or conflicting requirements or features. For example, you should not have a user stories that requires the user to scroll down the page and also another that allows user to get to the middle of the page.
 
+Also they must be able to be moved around in backlog or on a kaban. Also they must be able to be moved around between releases during release planning.
+
+### What are the potential negative consequences of having user stories that are not independent? (3 marks)
+You will end up with convoluted user stories and often a lot more user stories than required. This makes it hard to create product back log items because it involves splitting and combining PBIs. 
+
+Also once you complete a user stories, you might ended up moving multiple user stories for one completed user stories. You might also encounter problem where after you complete a user story. You can't move the other user stories due to conflict in requirements.
+
+### Here is an example of a non-functional requirement that has been expressed as a user story:
+
+> As a customer, I want the system to be secure so that my personal information can’t be accessed by a third party. <br/>
+
+#### What problems might this requirement cause if it is selected into the sprint backlog? Suggest an alternative way (or ways) to ensure that the complex requirement is met. Write about half a page. (4 marks)
+
+The product owner may refuse or cannot articulate this NFR since it is not within their knowledge domain. Also the requirement might not be visible (yet or might not even happen at all. 
+
+****Ways to counter this include:****
+
+**Requirement elicitation**
+
+- Staged rollouts
+Try and see as the system evolves through iterations, once the problem is visible tell the product owner and stakeholders to include the new NFR. This is best for usability related issues. Since the said issue relates to security, it is not best practice.
+
+- Stakeholder mapping
+Through stakeholder mapping, find stakeholders who might be related by this non-functional requirement in which case could be users or clients and ask them to voice their concerns.
+
+- Knowledge domain
+If you sense any potential non functional requirement in the sphere of knowledge you can use this knowledge to include the NFRs.
+
+Or, hire people are privy in the knowledge of this particular non-functional requirement and ask them for expert advice. Examples include white hat or ethical hacks to perform a penetration test to test if the system is secure enough. Or hire legal experts to see if the system follow regulations relating to its securities.
