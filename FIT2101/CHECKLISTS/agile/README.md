@@ -1,5 +1,6 @@
 # Agile checklist
 
+## [Scrum manifesto](http://agilemanifesto.org/principles.html)
 
   * [ ] Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 
