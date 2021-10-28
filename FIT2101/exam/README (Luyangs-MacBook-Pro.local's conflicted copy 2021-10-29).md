@@ -58,7 +58,7 @@ Use better design to prevent data leaks. Spend time on improving architecture.
 Instead of relying on a small technical team in the head office. Rely on an external organisation to handle the sensitive data that is more professional.
 
 
-## Question 2 (8 Marks)
+# Question 2 (8 Marks)
 
 > Data centre flooded, all data is lost <br />
 > Data centre burns down <br />
@@ -149,7 +149,7 @@ If you sense any potential non functional requirement in the sphere of knowledge
 
 Or, hire people are privy in the knowledge of this particular non-functional requirement and ask them for expert advice. Examples include white hat or ethical hacks to perform a penetration test to test if the system is secure enough. Or hire legal experts to see if the system follow regulations relating to its securities.
 
-## Question 4 (1 + 2 + 2 = 5 marks) This question is about stakeholder identification
+#### Question 4 (1 + 2 + 2 = 5 marks) This question is about stakeholder identification
 > The Golden Days nursing home is a residential care home for people who are unable to look after themselves because they are elderly, disabled, or sick. They provide medical care as well as cleaning, laundry, and housekeeping services, with nursing staff present 24 hours a day and doctors on call. <br />
 
 > Golden Days wishes to computerize its meal planning. They hope to minimize the amount of food wasted while making sure that all residents are eating fresh, nutritious food. The system will need to consider the residents’ preferred types of foods, medical and dietary needs, allergies, and any religious restrictions (e.g., for kosher or halal food) as well as the price and storage requirements of the ingredients. Each day, it will present the kitchen staff with instructions on what to cook for each resident. At the end of each week, the administrative staff will be able to print a list of the ingredients that need to be purchased to create next week’s meals. <br />
@@ -162,27 +162,3 @@ b) Identify the stakeholders for this system. (2 mark)
 * Golden Days residents
 * doctors
 * Other nursing homes
-* Product owners
-* Golden Days executives
-* Legislators of disability, food regulators, nursing home.
-* Doctors
-
-
-c) Draw a stakeholder map showing the relative influence and interest of each stakeholder (alternatively, list stakeholders under each correctly named quadrant of the map.) (2 marks)
-
-TODO
-
-
-## Question 5 (3 + 4 + 2 + 4 = 13 marks)
-This question is about team structure and teamwork.
-a) According to the Scrum model, an Agile team may have as many developers as you like but should only ever have one Product Owner. What risks are likely to arise if a team decides to appoint more than one Product Owner?
-Write a couple of paragraphs (3 marks)
-
-The product owner is the sole individual responsible for maximising return on investment (ROI). To do so they organise sprint planning and deadline. If there were multiple product owners, there would be conflicts in requirements for backlog items because different product owners often have their own views. Their different approaches in organising meetings, PBIs, user stories, interating with stakeholders may make things complicated and harder
-
-
-b) One of the practices that DeMarco and Lister identified as “teamicidal” (i.e., bad for teamwork) is having team members spread out through the building instead of sitting together. What are some of the challenges that Agile teams face if their members are not located close by? Suggest some ways that teams might overcome these problems, particularly in modern working environments. Write about half a page. (4 marks)
-
-c) What is siloing, and why is it considered a bad thing? Write a couple of sentences. (2 marks)
-
-d) Explain how DevOps approaches help overcome siloing, and how this improves outcomes for teams. Write about half a page. (4 marks)
