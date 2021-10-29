@@ -1,6 +1,8 @@
 # Teams and Team-work
 
-## Teams ### Teams vs group
+## Teams 
+
+### Teams vs group
 * A group is a collection of people
 * A team is a group that is (or is expected to be)
   * cohesive
@@ -47,7 +49,7 @@ structure
 
 ### Autocracy
 
-![autocracy](autocracy.png**
+![autocracy](autocracy.png)
 
 * Sometimes students think this is
 what teams should be like
@@ -113,3 +115,46 @@ experiences at all
 * In 1977, Tuckman and Jensen added a fifth stage:
   * Adjourning
 * Let’s see how group dynamics and task focus change as teams progress through these stages.
+
+## Peopleware: Teamicide
+* Defensive management
+    * if management makes it clear to the team that they’re not trusted, the team loses motivation
+
+* Bureaucracy
+    * hard to maintain your enthusiasm when you’re doing lots of mindless paperwork
+
+* Physical separation
+    * teams work best when members have spontaneous, casual interactions as well as planned and guided interactions
+
+    * spontaneous interactions enable creativity but are impossible if team members aren't co-located
+        * Pair programming
+
+* Fragmentation of time
+    * because you can’t concentrate if you keep switching back and forth between projects
+    * Links back to agile principle of focusing only on one task at a time
+
+* Quality-reduced product
+    * idea might be to lower costs or to ship earlier but it’s still demotivating to ship a poor product
+    * Links to agile samurai principle **you become accountable**.
+
+> When you commit to delivering something of value every week and showing your customer how you’ve spent their money, you become accountable.  <br />
+> • That means owning quality.<br />
+> • That means owning the schedule.<br />
+> • That means setting expectations.<br />
+> • That means spending the money as if it were your own.<br />
+> -- [Agile Samurai][agilesamurai]
+
+* Phony deadlines
+  * i.e. trying to make team members work faster by imposing artificially-close deadlines
+  * Really a form of defensive management: management doesn't trust the team to work hard unless they are nagged
+  * So trust team members that they can finish task on time without imposing artificially-close deadlines?
+
+* Clique control
+  * i.e. management may have policies that actively interfere with the health of teams (e.g. regularly rotating people through different roles)
+  * Links back to agile principle to be *focused*.
+  > A basic productivity theme in Scrum is for the Team to be focused on one product or application for one Sprint. <br />
+  > -- [scrum primer][scrumprimer]
+  * the authors see this as a consequence of management’s failure to understand teams, since teams seldom exist at management level
+
+[scrumprimer]: https://scrumprimer.org/
+[agilesamurai]: https://www.mattblatt.com.au/mb/buy/the-agile-samurai-how-agile-masters-deliver-great-software-jonathan-rasmusson-9781934356586/?utm_source=bing&utm_medium=cpc&utm_campaign=Dynamic+Search&utm_term=mattblatt+com&utm_content=Dynamic+Search
