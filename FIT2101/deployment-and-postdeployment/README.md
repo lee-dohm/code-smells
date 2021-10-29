@@ -37,8 +37,9 @@ Deployment means to make something available for use. It could mean:
 Continuous deployment takes this process one step further
 – changes are built and tested and deployed, either to a staging server or to production
 
-### Delivery
-## Delivering mobile apps
+## Delivery
+
+### Delivering mobile apps
 * Mobile apps are usually delivered by putting them on the relevant app store
     * iOS App Store for iPhones
     * Google Play for general Android apps
