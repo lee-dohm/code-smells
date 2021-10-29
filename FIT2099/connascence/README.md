@@ -6,8 +6,34 @@
 |          | Type             |
 |          | Meaning          |
 |          | Position         |
+|          | Algorithm        |
 |          |                  |
-|          |                  |
+
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Connascence](#connascence)
+- [Static Connascences](#static-connascences)
+    - [Connascence of name](#connascence-of-name)
+    - [Connascence of type](#connascence-of-type)
+        - [Statically typed languages](#statically-typed-languages)
+        - [Dynamically typed languages](#dynamically-typed-languages)
+    - [Connascence of Meaning](#connascence-of-meaning)
+        - [None as return value](#none-as-return-value)
+        - [Primitive numerical types or data types](#primitive-numerical-types-or-data-types)
+    - [Connascence of Position](#connascence-of-position)
+        - [In Data Structures](#in-data-structures)
+        - [In Function Arguments](#in-function-arguments)
+            - [Solution](#solution-1)
+    - [Connascence of algorithm](#connascence-of-algorithm)
+        - [In data transmission](#in-data-transmission)
+        - [In Data Validation and Encoding](#in-data-validation-and-encoding)
+            - [Example 1: Validations: Users not being able to register, but recieving no feedback as to why.](#example-1-validations-users-not-being-able-to-register-but-recieving-no-feedback-as-to-why)
+        - [Example 2: The encoding being used i.e. .encode('utf8')](#example-2-the-encoding-being-used-ie-encodeutf8)
+        - [In test code](#in-test-code)
+
+<!-- markdown-toc end -->
 
 
 Static Connascences
@@ -31,7 +57,7 @@ class Request:
     def set_proxy(self, host, type):
         pass
 ```
-> -- *[Connascenceio][connascenceIO]*
+> -- *[Connascenceio][connascenceio]*
 
 Changing the name of any part of this code will cause code that uses this class to break, including:
 
@@ -227,3 +253,59 @@ Code calling this send_email function must remember the order of arguments. Shou
 #### Solution
 This example could also be improved to connascence of name by **passing a structured object** (a class or dictionary) instead of a number of parameters.
 
+## Connascence of algorithm 
+
+This occurs is when **multiple components must agree on a particular algorithm**.
+
+### In data transmission
+
+Connascence of algorithm frequently occurs when two entities must manipulate data in the same way. 
+
+> if data is being transmitted from one service to another, some sort of **checksum algorithm** is commonly used. The sender and receiver must agree on which algorithm is to be used. If the sender changes the algorithm used, the receiver must change as well. <br />
+> -- [Connascenceio][connascenceio]
+
+### In Data Validation and Encoding
+
+#### Example 1: Validations: Users not being able to register, but recieving no feedback as to why.
+
+Consider a hypothetical piece of software that required users to provide a valid email address when creating an account. The software must validate that the email address is valid, but this might happen in several places, including:
+
+* In a database model object.
+* In a webapp 'controller' class method.
+* In a form field in the front-end UI.
+
+These pieces of code might well be in different languages, and will almost certainly be far apart from each other. The consequence of these algorithms being different might include users not being able to register, but recieving no feedback as to why.
+
+### Example 2: The encoding being used i.e. .encode('utf8')
+
+Another common example of connascence of algorithm is when unicode strings are written to disk. Imagine a hypothetical piece of software that writes a data string to a cache file on disk:
+
+
+```python
+def write_data_to_cache(data_string):
+    with open('/path/to/cache', 'wb') as cache_file:
+        cache_file.write(data_string.encode('utf8'))
+```
+
+```python
+def write_data_to_cache(data_string):
+    with open('/path/to/cache', 'wb') as cache_file:
+        cache_file.write(data_string.encode('utf8'))
+```
+The connascence of algorithm here is that both functions must agree on the encoding being used. If the write_data_to_cache function changes to encrypt the data on disk (the data being stored is potentially sensitive), the read_data_from_cache must also be updated.
+
+[connascenceio]: https://connascence.io/
+
+### In test code 
+Test code often contains connascence of algorithm. Consider this hypothetical test:
+
+The test assumes the actual algorithm uses md5 from hashlib
+```python
+def test_user_fingerprint(self):
+    user = User.new(name="Thomi Richards")
+    actual = user.fingerprint()
+    expected = hashlib.md5(user.name).hexdigest()
+    self.assertEqual(expected, actual)
+```
+
+This test is supposed to be testing that the 'fingerprint' method of the User class works as expected. However, it contains connascence of algorithm, which limits it's effectiveness. If the User class ever changes the way fingerprints are calculated, this test will fail.
