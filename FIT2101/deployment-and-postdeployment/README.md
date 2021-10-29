@@ -45,6 +45,8 @@ Continuous deployment takes this process one step further
     * Google Play for general Android apps
     * third party stores such as Samsung App Store or Amazon App
 
+* Usability and non-functional rquirement considerations (e.g. usability) like for larger screens.
+
 * The app must be **packaged for delivery** and is then submitted to the store
   * The store **reviews** the app:
     * compliance with the provider’s UI guidelines
@@ -58,7 +60,10 @@ Continuous deployment takes this process one step further
   * the software you write sits **alongside many other pieces of software**
   * it’s not just a single program but a **complex software ecosystem**
 * Each program or project that developers create is a component in this system
+* Problems include accidentally implementing a component that breaks another component.
+* More security concerns with databases and datamodels
 * Components are connected by scripts and small programs usually called **glue**
+* Has business rules and policies
 
 Ops (Operations):
 
@@ -87,6 +92,10 @@ They also deal with unforeseen events:
 
 ## Operations and maintenance are hard
 * Enterprise systems tend to **evolve toward complexity** over time
+* Requirement documentations and design by contract (liskov substitution principles) for portability and maintainability.
+* Acceptance criteria needs to met
+* Can try to improve quality metrics for code (e.g. comment to code ratios)
+* Some developers deliberately obfusicate code.
 
 Reason why it is hard for op team:
 -------------------------------------------------------------------------------

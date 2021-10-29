@@ -14,7 +14,6 @@ All transactions are logged and audited once a month to verify that service prov
 on a timely basis. A small team of technical staff at head office will manage these logs as well as
 maintaining the servers and responding to tech support request
 
-
 ### Who should be invited to a story-writing workshop for this project, and why? Write about half a page. (4 marks)
 * Product owner because the product owners should be the person responsible for coming up with ideas for the app. The product owner is the individual responsible for maximising profits and the value out of the team.
 
@@ -167,7 +166,6 @@ b) Identify the stakeholders for this system. (2 mark)
 * Legislators of disability, food regulators, nursing home.
 * Doctors
 
-
 c) Draw a stakeholder map showing the relative influence and interest of each stakeholder (alternatively, list stakeholders under each correctly named quadrant of the map.) (2 marks)
 
 TODO
@@ -209,6 +207,53 @@ So team might waste developer time, or struggle to complete sprint backlog
 
 d) Explain how DevOps approaches help overcome siloing, and how this improves outcomes for teams. Write about half a page. (4 marks)
 
-DevOps means breaking down silos so that developers, operators, and QA staff all collaborate.
+DevOps means breaking down silos so that developers, operators, and QA staff all collaborate. Often the development team and operation team have conflicts and blame each other's mistakes especially when error occur during deployment. Developers tend to blame operators for incorrect deployment while operators blame devs for producing fragile system.
+
+
+## Question 6 (4 + 4 + 4 = 12 marks) This question is about Agile practices.
+
+> A team is developing web services and web applications. Five years ago, the team used Scrum as documented in the Scrum Primer. Since then, their methodology has changed. The team **no longer uses user stories**. Instead, requirements are managed by tasks. The Product Owner sits where she can see the master task list and notifies the Scrum Master if she sees anything that doesn't seem to be adding value from her perspective, and the Scrum Master investigates.
+
+> A master task list is kept in an online system. The task list is always displayed on a screen in the office that is visible from all team members’ workstations and is also accessible to team members when they are working offsite or from home. Here is an image to show you the structure of this task list (note that this image is too small to let you read task details, but they would be easily readable on the screen.) Whenever a team member is looking for something to do, they can either develop or QA. If they want to develop, they assign themselves a task from the “unassigned” column by putting their name on it and moving it to the Assigned column. When they feel it’s finished, and it passes all unit tests, they move it to the Completed column. Team members who want to do some QA take a task from the Completed column, informally review the code, verify that it passes all automated tests and the **acceptance tests as documented on the card**, then move it to the Done column. The team no longer conducts sprint planning or backlog grooming. Instead, team members do their own estimation at the time that they assign tasks to themselves. The Scrum Master and Product Owner check on an informal basis that the task list looks okay. 
+
+> Instead of running a daily scrum, the Scrum Master makes sure to communicate one-on-one with each team member every day or two to informally check that everything is running smoothly.
+
+> Sprint reviews are no longer conducted because the team no longer feels that they are necessary. Instead, software is deployed to a staging server as soon as it passes unit tests and is manually pushed to production once it has passed user acceptance tests. This means that they are shipping new features much more often than they used to. The team does make sure to conduct a retrospective every two or three weeks to consider how their process can be made more efficient and effective.
+
+a) Is this still Scrum? Why/why not? Write up to half a page. (4 marks)
+
+This is no longer Scrum. Although there are still aspects of scrum left such as having a sole product owner and a scrum master. However the product owner and scrum master are not performing their tasks appropriately.
+
+The product owner should be trying to maximum the return on investment by identifying features. 
+
+Once the features are identified as user stories and in sprint planning meeting high priority items should be added as PBIs and no changes should be made until the next sprint. One of the pillars of Scrum is that once the Team sets its target for the Sprint, any additions or changes must be deferred until the next Sprint.
+
+Also there seems to be a lot of cross-overs of the scrum master and product owner do. They both seem like managers as they both check on the informal basics. The scrum master and product owner cannot be the same individual as their focus is different. When you have micro-managing product owners it contradicts self-managing teams. If the scrum master was previously a product owner, they need to substantially change their attitude and mindset which can be difficult.
+
+Another pillar of scrum is PBI and they need to adhere to DEEP principles. Tasks is a very vague term and it is not SCRUM. The tasks or items needs to be detailed appropriately, estimated, emergent (regularly refined and continuously updated by the product owner to reflect the changes of the needs to the customer) and prioritised.
+
+Also there seems to be no definition of done as completed tasks can be tested multiple times. Once definition of done is met, they should be treated as completed and potentially shippable code should not require any additional testing. The shipped new features are also not guaranteed to be done.
+
+Sprint review is a pillar of scrum as well. It is to see and learn what is going on and then evolve based on feedback, in repeating cycles. It employs inspect and adapt activity to find and identify flaws in the product or potential requirements (functional and non-functional).
+
+The retrospective should be conducted after every sprint and identify areas the team did well and areas that need improvement. Strategies should be put forward to mitigate these issues. It is another inspect and adapt process instead regarding the process and environment. It is not only a meeting to help with improving efficiency and effectiveness but rectifying things that are not working and need to be addressed.
+
+
+
+b) Is this still Agile? Why/why not? Write up to half a page. (4 marks)
+
+No because this the methodology employed no longer is flexibility to changes. 
+
+No longer aims to satisfy the customer through early and continuous delivery of valuable software. Spring reviews are not held to receive feedback. No user stories to include the needs to users and personas.
+
+No longer business people and developers work together daily throughout the project. Product owner is doing things he/she is not supposed to do. No involvement from business people and stakeholders.
+
+No longer there is continuous attention to technical excellence and good design enhances agility. No definition of done
+
+No longer self-organising. No daily scrum meeting to say what each team member did yesterday going to do today and barriers.
+
+c) Have the changes to this process increased or decreased the risks involved? What are the trade-offs (i.e., costs and benefits)? Write about half a page. (4 marks)
+
+There are definitely more risk involved. Quality assurance could be not met since some completed "tasks" could be not sufficiently tested. Also, end users or business people may not be satsified since there is no involvement from them. Since the scrum master seems to do minimal amount of teaching, coaching and supporting role. This could lead the team astray and and team mates may leave the team or cause the sprint velocity or quality to decrease.
 
 [silo]: "https://www.agiledrop.com/blog/3-key-considerations-successful-agile-transformation
