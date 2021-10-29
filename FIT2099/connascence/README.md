@@ -1,5 +1,15 @@
 # Connascence
 
+| Strength | Connascence Type |
+| :-:      | :-:              |
+| Weakest  | Name             |
+|          | Type             |
+|          |                  |
+|          |                  |
+|          |                  |
+|          |                  |
+
+
 
 ## Connascence of name
 
@@ -26,8 +36,38 @@ Changing the name of any part of this code will cause code that uses this class 
 * Changing any of the method names (such as set_proxy).
 * Changing the name of any of the parameters to either __init__ or set_proxy.
 
-Connascence of name is unavoidable, since we refer to entities using labels. If we change the name of an entity when we declare it, we must also change all code that refers to that entity. For this reason, connascence of name is the **weakest*** connascence. 
+Connascence of name is unavoidable, since we refer to entities using labels. If we change the name of an entity when we declare it, we must also change all code that refers to that entity. For this reason, connascence of name is the **weakest** connascence. 
 
 However, it also illustrates how important it is to name entities in code well.
 
 [connascenceIO]: https://www.connascence.io
+
+## Connascence of type
+
+Connascence of type is when multiple components must agree on the type of an entity. 
+
+### Statically typed languages 
+These issues are often (but not always) **caught by the compiler**. Consider the following trivial C++ code:
+
+```C++
+std::string cost;
+
+cost = 10.95; // OOPS!
+```
+
+### Dynamically typed languages
+Dynamically typed languages typically suffer from less obvious instances of connascence of type. Consider a function that calculates your age, given your day, month, and year of birth:
+
+```python
+def calculate_age(birth_day, birth_month, birth_year):
+    # do the calculation here:
+```
+
+How is this function supposed to be called? Here are a few different options:
+
+```python
+calculate_age(1, 9, 1984)
+calculate_age(1, 9, 84)
+calculate_age('1', '9', '1984')
+calculate_age('1', 'September', '1984')
+```
