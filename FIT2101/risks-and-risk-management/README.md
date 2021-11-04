@@ -85,7 +85,7 @@ Once we have our RiskExposure for each risk, we can sort our risks and manage on
   * ExtremeProgramming reduces the likelihood that you will lack some features at each milestone by **reducing the amount of "extra" work to be done**, such as paperwork or documentation, and **improving overall quality** so as to make development faster.
 
 
-**Good or Bad?** Risk evasion
+**Good or Bad?** Risk evasion <br />
 Hoping things will work out.
 
 * [handwaving](https://wiki.c2.com/?RiskEvasion) is a common riskevasion tactic.
