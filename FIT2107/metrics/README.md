@@ -33,128 +33,78 @@
 <!-- markdown-toc end -->
 
 ## Testing metric
-
-
 ### Coverage metrics
-
 * Can compute statement and branch coverage
-
 * MC/DC coverage are available for the kinds of languages in which safety-critical automotive and aerospace code is written
-
-
 * Code coverage is easy to compute and useful indicator of test suit quality.
-
 * There is *no reliable industry model* that can tell you "x% coverage is sufficient to give you reliability".
-
 * **specification coverage** should somewhere around 100%
 
-
 ## Mutation analysis
-
 * Involves automatically seeding a change in your code.
 * Mutation score varies between 0 to 1.
 * Better indication whether your test suite is any good than just code coverage.
-
-
 * Can be problematic if **generating thousands of mutants and running the test suite on each of them**
 
 ## Design and code metrics
-
 Statically analysing source code and in some cases uml diagrams
-
 * Good indicator of **functional correctness** and potentially useful proxies for the maintainability and **portability of software**.
 
 ### Code size
-
 * Determine how big it is.
-
 * lines of code (LOC). This very easy to measure
 
 #### Comment lines
-Are useful and often when there are a lot of comment lines it indicates that the code itself is harder to understand
-
-Are quicker to write compared to code itself
-
-**LOC counters** provide more detailed counts, tabulating comments and blank lines separately.
-
+Are useful and often when there are a lot of comment lines it indicates that the code itself is harder to understand <br />
+Are quicker to write compared to code itself <br />
+**LOC counters** provide more detailed counts, tabulating comments and blank lines separately. <br />
 Larger methods are much more error-prone than small methods.
 
 ## Halsteads software science metrics
-
 HSCM can predict the difficulty, effort required and likely correctness of code.
 
-
 ## OO design metrics
-
 The more interactions and complex the interactions are between modules and classes, the harder code is to write and debug More interactions between classes means more mocking for unit testing, more tracing faults down through many different classes.
 
-
 ### Weighted methods per class (WMC)
-
-For class with methods M_1, M_2 up to M_n.
-
-
-Complexities of each method: c_1, c_2, c_n.
-
+For class with methods M_1, M_2 up to M_n. 
+Complexities of each method: c_1, c_2, c_n. <br />
 ![Alt Text](pic1.png) 
 
-
 #### Complexities for a method
-
-There are a number of ways  already discussed and Chdiamber and Kemerer deliberately did not refine this.
-
+There are a number of ways  already discussed and Chdiamber and Kemerer deliberately did not refine this. <br />
 The complexity of a method is likely to be application specific due to different programming languages and different definitions of operands and operators.
-
 The complexity metric **requires code to measure**. 
 
 ## Depth of inheritance - DIT
-
 The depth or inheritance it takes to reach to the class of the inheritance tree.
-
 ![Alt Text](pic2.png)
-
 DIT for <kbd>VerticalLayout</kbd> is 3 and DIT for object is 0.
-
 A higher DIT number was thought to make designs more complex. This is because the class at the bottom of the hierarchy inherits more and more properties, but a higher DIT also implies more reuse (which is considered good.)
 
-
 ## Number of children - NOC
-
 ![Alt Text](pic2.png)
-
 Widget has three children
 Object has 1 children
 Leaf nodes like VerticalLayout have zero children
-
 High NOC indicates reuse (good) but also indicates inappropriate abstraction (bad). Classes with **high number of children were thought to require more testing, because high influence over large parts of the design is heavily used**.
 
 ## Coupling between objects - CBO
-
 The number of other classes it interacts with directly. High coupling is bad because becomes harder to design, build, test debug, extend and reuse classes. CBO metric is reasonable measure for coupling and a high CBO number for classes is bad. More arrows between a class and other classes indicate high CBO
 
-
 ## Response for a class - RFC
-
 All the methods in C and all the methods invoked directly by methods in C.
-
 You do not need to worry about the methods invoked in the methods invoked by C (not transitive)
 
 ## Lack of cohesion in methods (LCOM)
-
 The closeness of the relationships between the elements of the same module.
-
 Cohesion, functional cohesion, occurs when a single clear and unambiguous purpose.
-
 Methods: {M_1, M_2, M_n}
 Instance variables a methods operates on: {I_j}
-
 For **each pair** determine if any of the instance variables they operate on are the same. (That is, I_a and I-b contain at least one shared element)
-
 Low cohesion as measured by this metric was believed by Chidamber and Kemerer tto lead to code that is less easy to **test, debug, maintain and resuse**,.
 
-
 ### If they share no instance variables
-
 Add 1 to P, otherwise add 1 to Q.
 
 ### LCOM
@@ -236,19 +186,14 @@ Measuring desirable outputs is not always so easy. For instance, consider this l
 ![Alt Text](pic5.png) 
 
 ## Code review metrics
-
-
 * Measure the activities in project (commits in git)
 * Coverage of the code review
     * Proportion of changes that have been reviewed in the past.
     * Proportion of code that has been reviewed in the past.
-
 * Code review participation
     * #Self-Approved: The proportion of changes to the file that are only approved for integration by the original author (Maybe bad?)
-
 * Code review ownership
     * The number of developers who have reviewed code changes to the file
     * The degree of review ownership
-
 * Pull request
 * Merge requests
