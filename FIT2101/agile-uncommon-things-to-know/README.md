@@ -1,13 +1,12 @@
 # Some hard to remember things
 
-
 ## Putting people first
-
-
 
 ### Plug-Compatible Programming Units (people are not tools, each person can take many roles)
 
-> it's just saying in traditional or old methodologies people are treated as replaceable parts and that this works for predictable processes but humans hence programmers are not 'plug-ins' and are treated as replaceable parts. The effect of this is it dehumanizes the workforce and Martin Fowler states the result is the good people end up moving out to where they aren't treated as so and such management is left with people who end up actually being replaceable parts which (imo) is bad for innovation and other such things a business should try maintain.
+Roles can't just be replaced by any person. Teams are cross-functional and members find roles that suit them individually.
+
+> it's just saying in traditional or old methodologies people are treated as replaceable parts and that this works for predictable processes but humans hence programmers are not 'plug-ins' and are treated as replaceable parts. The effect of this is it dehumanises the workforce and Martin Fowler states the result is the **good people end up moving out to where they aren't treated as so** and such management is left with people who end up actually being replaceable parts which (imo) is bad for innovation and other such things a business should try maintain.
 
 #### Are the people involved in software development replaceable parts? 
 
@@ -32,8 +31,7 @@ If you expect all your developers to be plug-compatible programming units, you d
 **Talorist notion:** <br />
 Part of this is that many factory workers are not the most intelligent or creative people, in part this is because there is a tension between management and workers in that management makes more money when the workers make less.
 
-
-The Taylorist notion of a separate planning department that decides how to do things only works if the planners understand how to do the job better than those doing it. 
+The Taylorist notion of a **separate planning department** that decides how to do things only works if the planners understand how to do the job better than those doing it. 
 
 If you have **bright, motivated people doing the job then this does not hold**.
 

@@ -25,7 +25,7 @@ The process of preparing the sprint backlog.
 
 **Do not think about*** future sprints!
 
-this is done at the end of the sprint in backlog maintenance.
+This is done at the end of the sprint in backlog maintenance.
 
 Backlog grooming sessions don’t need to involve the whole team, so they’re less likely to end up going off-topic, and you’re losing less productivity if they do.
 
@@ -142,7 +142,7 @@ If velocity in your team is **stable**, you can simply use last iteration’s ve
 
 At the start, your initial estimate of velocity will be very rough and likely to be inaccurate, but as you gain experience you'll get better at this.  Then, you will be able to use your past velocity to predict how many story points your team is likely to get through in the sprint.  As a rule of thumb, you can expect your tasks to take about twice as long as you think they will.
 
-## Don't forget your tech stories
+## Don't forget your technical stories
 
 If you have accrued significant technical debt, you may also need to select some tech stories so that you can refactor it away.
 

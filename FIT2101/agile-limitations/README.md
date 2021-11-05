@@ -25,20 +25,23 @@
 
 ## When shouldn't you use Agile?
 
-### When it’s a bad fit for your organisation
-* organizational culture is opposed to uncertainty or change
-* you have a lot of reporting requirements
-* company structure requires a traditional Project Manager to be in charge
+### When it’s a bad fit for your organisation (pressure from higher ups)
+* organizational culture is **opposed to uncertainty** or change
+* you have a lot of reporting requirements (bureaucracy)
+* company structure **requires a traditional Project Manager** to be in charge
+
 ### When it’s a bad fit for your customers
-* they don’t have time to spend with developers
+* they don’t have time to spend with developers (ruins concept of inspect and adapt and can't learn from past mistakes)
 * they require a very predictable process
+
 ### When it’s a bad fit for the product
-* needs a very large team, or has stringent quality requirements
-* requirements are known in advance, well-understood,and won’t change
+* needs a very large team, or has stringent quality requirements (no longer lightweight, need to be estimable, minimising defects)(e.g. nasa, aeronautical)
+* requirements are known in advance, well-understood, and won’t change (no longer need to be iterative)
+
 ### When it’s a bad fit for the team
-* team can’t meet frequently (e.g. time zone differences)
-* team is very large
-* team does’t know each other well,or there is distrust.
+* team can’t meet frequently (e.g. time zone differences and ruins self-organising and multi-learning)
+* team is very large (ruins self-organising)
+* team does’t know each other well,or there is distrust. (no longer self-organising, multi-functional, cohesive and focused on a single goal)
 * team lacks the maturity to self-manage
 
 ## Higher management
@@ -46,7 +49,8 @@
 ### Senior management might impose unagile conditions
 
 #### Frequent writing reports
-One of the teamicide issues: bureaucracy.
+One of the teamicide issues: bureaucracy. (no longer light-weight)
+
 
 #### Frequent personnel changes
 Need to consistently form new cohesive teams focused on a common goal or purpose..
@@ -101,6 +105,8 @@ It is or for planning and estimation to be not perfect because it can be address
 * Naive to expect non-trivial project will succeed if attempted completely ad-hoc.
 
 ## Scope Creep (Do not over-estimate what you can do)
+
+Introducing too many features inside sprint planning meeting or backlog refinement meeting.
 
 **Weakness:** agile processes put less effort into nailing down requirements at the start of the project
 * If the customer is unreasonable or overenthusiastic, this can lead to scope creep

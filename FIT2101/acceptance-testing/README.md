@@ -23,7 +23,7 @@ A first class artefact involving black box testing to check if all the stakehold
 
 ## Why use acceptance testing?
 
-Can be used as both **detailed specification** tests to validate whether the app conforms with the stakeholder's requirements
+Can be used as both **detailed specification** tests to validate whether the app conforms with the stakeholder's requirements.
 
 Reduce traceability needs of the project because you only need to follow the requirement once as acceptance tests (**single source information**) instead of many times (with bother other requirements artefacts and as acceptance test.).
 
