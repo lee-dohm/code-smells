@@ -8,7 +8,7 @@
         - [Coverage metrics](#coverage-metrics)
     - [Mutation analysis](#mutation-analysis)
     - [Design and code metrics](#design-and-code-metrics)
-        - [#Code size](#code-size)
+        - [Code size](#code-size)
             - [Comment lines](#comment-lines)
     - [Halsteads software science metrics](#halsteads-software-science-metrics)
     - [OO design metrics](#oo-design-metrics)
@@ -21,6 +21,14 @@
     - [Lack of cohesion in methods (LCOM)](#lack-of-cohesion-in-methods-lcom)
         - [If they share no instance variables](#if-they-share-no-instance-variables)
         - [LCOM](#lcom)
+    - [Fault prediction](#fault-prediction)
+        - [Model generator](#model-generator)
+        - [Maintainability](#maintainability)
+    - [The only metric that seems like a useful predictor of maintenance effort is... lines of code!](#the-only-metric-that-seems-like-a-useful-predictor-of-maintenance-effort-is-lines-of-code)
+    - [RULE OF THUMB: BYO models](#rule-of-thumb-byo-models)
+        - [Watch out for red flags](#watch-out-for-red-flags)
+    - [Traps and statics TODO](#traps-and-statics-todo)
+    - [Taylorism](#taylorism)
 
 <!-- markdown-toc end -->
 
