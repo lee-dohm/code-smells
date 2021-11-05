@@ -107,15 +107,13 @@ The complexity of a method is likely to be application specific due to different
 
 The complexity metric **requires code to measure**. 
 
-## Depth of inheritance -DIT
+## Depth of inheritance - DIT
 
 The depth or inheritance it takes to reach to the class of the inheritance tree.
 
 ![Alt Text](pic2.png)
 
 DIT for <kbd>VerticalLayout</kbd> is 3 and DIT for object is 0.
-
-
 
 A higher DIT number was thought to make designs more complex. This is because the class at the bottom of the hierarchy inherits more and more properties, but a higher DIT also implies more reuse (which is considered good.)
 
@@ -132,7 +130,7 @@ High NOC indicates reuse (good) but also indicates inappropriate abstraction (ba
 
 ## Coupling between objects - CBO
 
-The number of other classes it interacts with directly. High coupling is bad because becoems harder to design, build, test debug, extend and reuse classes. CBO metric is reasonable measure f coupling and a high CBO number for classes is bad. More arrows between a class and other classes indicate high CBO
+The number of other classes it interacts with directly. High coupling is bad because becomes harder to design, build, test debug, extend and reuse classes. CBO metric is reasonable measure for coupling and a high CBO number for classes is bad. More arrows between a class and other classes indicate high CBO
 
 
 ## Response for a class - RFC
@@ -160,7 +158,6 @@ Low cohesion as measured by this metric was believed by Chidamber and Kemerer tt
 Add 1 to P, otherwise add 1 to Q.
 
 ### LCOM
-
     LCOM = P - Q, P > Q otherwise.
 
 ## Fault prediction
