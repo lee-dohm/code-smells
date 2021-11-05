@@ -1,5 +1,46 @@
 # Encapsulation
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
 
+- [Encapsulation](#encapsulation)
+    - [Packages](#packages)
+        - [Reduce dependencies as much as possible.](#reduce-dependencies-as-much-as-possible)
+        - [Group elements that must depend on each other together inside an encapsulation boundary](#group-elements-that-must-depend-on-each-other-together-inside-an-encapsulation-boundary)
+    - [Minimise dependencies that cross encapsulation boundaries](#minimise-dependencies-that-cross-encapsulation-boundaries)
+    - [Declare things in the tightest possible scope](#declare-things-in-the-tightest-possible-scope)
+    - [Declare things in the tightest possible scope](#declare-things-in-the-tightest-possible-scope-1)
+
+<!-- markdown-toc end -->
+
+## What is encapsulation?
+
+The realisation and the access to the names, meanings, values, and responsibilities of a class is entirely separated.
+* A software development technique
+* Isolate a system function or a set of data and operations on those data within a module and providing precise specifications for the module.
+
+| Within encapsulation boundary      | Outside encapsulation boundary        |
+| :-:                                | :-:                                   |
+| External interface (preconditions) | Internal implementations              |
+| set of data                        | realisation                           |
+| operations on the data             | precise specifications for the module |
+| names                              | Methods (setters getters)             |
+| meanings                           |                                       |
+| values                             |                                       |
+| responsibilities                   |                                       |
+| **Private** variable               |                                       |
+
+
+## Information hiding
+* Every module is characterised by its **Knowldege of a *design decision* which hides from all others**
+* Interface or definition chosen to reveal as little has possible about it's inner workings: 
+    * **inside single module**
+    * Data structures
+    * Internal linkings
+    * Accessing procedures
+    * modifying procedures
+
+
+ 
 ## Packages
 Grouping several classes together by packages.
 

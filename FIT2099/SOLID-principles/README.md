@@ -305,7 +305,7 @@ One motivation behind the DIP is to prevent you from depending upon volatile mod
 
 However in some cases, modules are not at all volatile. String.h standard C library is very concrete, but is not at all volatile.
 
-A dependency upon string.h could turn very ugly when the requirements for the project forced you to change to UNICODE characters. Non-vol- atility is not a replacement for the substitutability of an abstract interface.
+A dependency upon string.h could turn very ugly when the requirements for the project forced you to change to UNICODE characters. Non-volatility is not a replacement for the substitutability of an abstract interface.
 
 #### Object creation: Abstract factory
 One of the most common places that designs depend upon con- crete classes is when those designs create instances. By definition, you cannot create instances of abstract classes. Thus, to create an instance, you must depend upon a concrete class.
