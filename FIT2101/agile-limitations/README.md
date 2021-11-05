@@ -1,5 +1,28 @@
 # Limitations of agile
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Limitations of agile](#limitations-of-agile)
+    - [When shouldn't you use Agile?](#when-shouldnt-you-use-agile)
+        - [When it’s a bad fit for your organisation](#when-its-a-bad-fit-for-your-organisation)
+        - [When it’s a bad fit for your customers](#when-its-a-bad-fit-for-your-customers)
+        - [When it’s a bad fit for the product](#when-its-a-bad-fit-for-the-product)
+        - [When it’s a bad fit for the team](#when-its-a-bad-fit-for-the-team)
+    - [Higher management](#higher-management)
+        - [Senior management might impose unagile conditions](#senior-management-might-impose-unagile-conditions)
+            - [Frequent writing reports](#frequent-writing-reports)
+            - [Frequent personnel changes](#frequent-personnel-changes)
+            - [Insisting on micromanaging the process](#insisting-on-micromanaging-the-process)
+    - [Team doesn't collaborate well (no long self-organising)](#team-doesnt-collaborate-well-no-long-self-organising)
+    - [Customer (representative) isn't interested:](#customer-representative-isnt-interested)
+    - [Teams hangs on to their old ways](#teams-hangs-on-to-their-old-ways)
+    - [Overplanning (losing agility)](#overplanning-losing-agility)
+    - [Unreasonable expectations (plan to fail)](#unreasonable-expectations-plan-to-fail)
+    - [Scope Creep (Do not over-estimate what you can do)](#scope-creep-do-not-over-estimate-what-you-can-do)
+
+<!-- markdown-toc end -->
+
 ## When shouldn't you use Agile?
 
 ### When it’s a bad fit for your organisation
