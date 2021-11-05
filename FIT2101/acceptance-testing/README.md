@@ -35,6 +35,15 @@ TODO does this mean if acceptance test then no user stories?
 
 ![Alt Text](pic2.png) 
 
+
+### Basic checklist
+
+  * [ ] A test id (optional)
+  * [ ] A description
+  * [ ] necessary set up procedures
+  * [ ] instructions to trigger expected result
+  * [ ] expected results
+
 Is a first class artefact
 
 ## Measuring project progress
