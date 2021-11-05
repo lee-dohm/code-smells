@@ -81,7 +81,6 @@ Once we have our RiskExposure for each risk, we can sort our risks and manage on
 
 * RiskReduction
   * This consists of **minimizing the likelihood of the undesirable event**.
-
   * ExtremeProgramming reduces the likelihood that you will lack some features at each milestone by **reducing the amount of "extra" work to be done**, such as paperwork or documentation, and **improving overall quality** so as to make development faster.
 
 
@@ -90,3 +89,11 @@ Hoping things will work out.
 
 * [handwaving](https://wiki.c2.com/?RiskEvasion) is a common riskevasion tactic.
 
+## Feature creep
+
+> Our studies about the usefulness of communication services indicate that a small set of basic features is able to provide a great majority of benefits <br />
+> --(Pohjola and Kilkki, 2004). 
+
+* Better service for a set of users does not imply better user experience in general, because better service for someone usually means worse or no service for some other users.
+* Better technical performance does not directly imply better business performance, because the relationship between transmitted bytes and operator profit varies vastly from case to case.
+* Complex methods to boost performance or service quality are likely to generate complex interactions that may seriously complicate network management, and actually cancel out any positive effects.
