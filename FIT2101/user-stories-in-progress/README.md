@@ -1,6 +1,5 @@
 # User Stories 
 
-
 A **inclusive modelling** technique and tool used to form high-level requirements.
 
 
@@ -43,3 +42,16 @@ The only reason to do this would be to do this is if you need to maintain some s
 
 e.g. The card also includes a unique identifier for the user story, in this case 173.
  
+## INVEST criteria
+
+  * [ ] “I” ndependent (of all others)
+
+  * [ ] “N” egotiable (not a specific contract for features)
+
+  * [ ] “V” aluable (valuable to the user)
+
+  * [ ] “E” stimable (to a good approximation)
+
+  * [ ] “S” mall (so as to fit within an iteration)
+
+  * [ ] “T” estable (in principle, even if there isn’t a test for it yet)
