@@ -82,21 +82,11 @@ For instance, consider a program to simulate a simple calculator, with a fixed-s
 
 
 ## Category partition testing
-**Multiple properties** on which you can define equivalence classes
-
-Ostrand and Balcer states that test frames may have "zero or one choice" from each category. 
-
-For instance, if you added another choice to the Transaction Type category, balance check, there is no "Transaction Amount" applicable. That's OK. You don't have to include an entry from a particular category if it's not applicable.
-
-Test cases need to be clearly defined, and  non-overlapping.
+**Multiple properties** on which you can define equivalence classes Ostrand and Balcer states that test frames may have "zero or one choice" from each category. For instance, if you added another choice to the Transaction Type category, balance check, there is no "Transaction Amount" applicable. That's OK. You don't have to include an entry from a particular category if it's not applicable. Test cases **need to be clearly defined, and  non-overlapping**.
 
 
 ### Exceptional cases
-Exceptional cases are often cases not from specifications. Exceptional behaviour does not always have to be combined with all the different values of the other inputs.
-
-E.g. negative price is often an exceptional case.
-
-This can be added to the test suite but not necessarily tested.
+Exceptional cases are often cases not from specifications. Exceptional behaviour does not always have to be combined with all the different values of the other inputs. E.g. negative price is often an exceptional case. This can be added to the test suite but not necessarily tested.
 
 ### Identifying boundaries
 
