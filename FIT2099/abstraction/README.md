@@ -1,5 +1,21 @@
 # Abstraction
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [Abstraction](#abstraction)
+    - [What is abstraction?](#what-is-abstraction)
+    - [Abstraction, encapsulation and information hiding](#abstraction-encapsulation-and-information-hiding)
+    - [Separation of Concerns (Reducing coupling)](#separation-of-concerns-reducing-coupling)
+    - [DIP and abstraction](#dip-and-abstraction)
+    - [Common mistakes](#common-mistakes)
+        - [Simplicity **does not mean** less classes.](#simplicity-does-not-mean-less-classes)
+            - [Classes are systems too](#classes-are-systems-too)
+        - [Overdoing dependency inversion](#overdoing-dependency-inversion)
+            - [Confusing abstraction with abstract](#confusing-abstraction-with-abstract)
+
+<!-- markdown-toc end -->
+
 ## What is abstraction?
 
 The action of deciding **what information to encapsulate into a module** and **what information to expose** to the rest of the code (make public).
