@@ -4,6 +4,8 @@
 
   * [ ] Responsibilities are decentralised. (no micromanagement, flat team structure, )
 
+  * [ ] Just in time analysis (JIT anlysis)
+
   * [ ] Reporting requirements change TODO
 
   * [ ] Testing is done frequently (regression test, progression testing) TODO
