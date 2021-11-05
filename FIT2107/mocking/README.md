@@ -246,11 +246,8 @@ False
 ```
 ### When to check for mocked calls?
 * You should check anything that is part of the externally-specified behaviour of the module. (e.g. check if file-access method permissions are correct)
-
 * If it's the only convenient way to verify the correctness of the code you're testing. For example, the parameters of api calls are correct.
-
 * You don't have to check every call to a mock in every single unit test. Sometimes a single test is probably sufficient to check that the mocked method is getting the right arguments.
-
 * **unit tests should have one or two assertions**
 
 ### MagicMocks
@@ -336,6 +333,6 @@ So, in this case, rather than patching ​gitlab.Gitlab​, we need to patch <ou
 ```
 
 ## Mocking alternatives
-* hand-roll your own test doubles rather than using the ​mock ​library.
-* Docker and local networks if you're mocking something that calls a network service, set up your own version of the service for testing. For instance, rather than mocking gitlab, you set up your own gitlab server, with known test data.
-* If you're mocking to avoid user interactions, consider using a tool like Selenium to automate the user interactions, rather than using mocks in the tests themselves.
+* **hand-roll your own test doubles** rather than using the ​mock ​library.
+* **Docker and local networks** if you're mocking something that calls a network service, set up your own version of the service for testing. For instance, rather than mocking gitlab, you set up your own gitlab server, with known test data.
+* If you're mocking to avoid user interactions, consider using a tool like Selenium to **automate the user interactions**, rather than using mocks in the tests themselves.
