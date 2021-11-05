@@ -163,12 +163,18 @@ Add 1 to P, otherwise add 1 to Q.
 ## Fault prediction
 
 ### Model generator
-Academics tend to use machine learning techniques (Big data). This involves feed data into the model by "training it"
+Academics tend to use machine learning techniques (Big data). This involves feed data into the model by "training it**
+
+Pointers to what modules to test more intensively.
+
+**Predicting** future software defects so practitioners can effectively optimise limited resources.
+**Explaining** what makes a software fail so managers can develop the most effective improvement plans.
+**Building** empirical grounded theories of software quality
 
 There are different types of fault prediction metrics:
 
 * Static source code measures, like the ones we have been discussing
-* Software process metrics such as the numbero f bugs already found in the modules.
+* Software process metrics such as the number of bugs already found in the modules.
 * Personnel-based information such as who has been working on the modules.
 
 > "...On the other hand, models using only static code metrics (typically complexity based) perform relatively poorly. Model performance does not seem to be improved by combining these metrics with OO metrics. Models seem to perform better using only OO metrics rather than only source code metrics. However, models using only LOC seem to perform just as well as those using only OO metrics and better than those models only using source code metrics." <br />
@@ -217,10 +223,7 @@ Collecting metrics using automated tools from source code is an **extremely chea
 ## Taylorism
 
 Taylorism
-The idea of managing the behaviour of workers producing something by systematic measurement was
-
-(to simplify a little) popularized by Fredrick Winslow Taylor in the early twentieth century. His ideas are summarized in his book, Principles of Scientific Management21. Many of the principles espoused in it are echoed in software engineering today, particularly the more rigid, process-oriented types. In short, Taylor espoused the following:
-
+The idea of managing the behaviour of workers producing something by systematic measurement (measure everything). Many of the principles espoused in it are echoed in software engineering today, particularly the more **rigid, process-oriented types**. In short, Taylor espoused the following:
 
 * Based on empirical measurement, develop a detailed "science" for each worker's job - essentially, a **manual describing in detail exactly how they should do their work as efficiently as possible**.
 
@@ -230,5 +233,22 @@ The idea of managing the behaviour of workers producing something by systematic 
 
 Measuring desirable outputs is not always so easy. For instance, consider this little anecdote, where the desired output is not enough due to **Goldberg effect and perverse incentives**. **Metrics should not be a goal**.
 
-
 ![Alt Text](pic5.png) 
+
+## Code review metrics
+
+
+* Measure the activities in project (commits in git)
+* Coverage of the code review
+    * Proportion of changes that have been reviewed in the past.
+    * Proportion of code that has been reviewed in the past.
+
+* Code review participation
+    * #Self-Approved: The proportion of changes to the file that are only approved for integration by the original author (Maybe bad?)
+
+* Code review ownership
+    * The number of developers who have reviewed code changes to the file
+    * The degree of review ownership
+
+* Pull request
+* Merge requests
