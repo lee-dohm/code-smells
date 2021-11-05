@@ -21,7 +21,7 @@ def total_points(current_points, remaining_lives):
 * Score >= 50 and remaining life < 3
 * Score >= 50 and remaining life >= 3
 
-![Alt Text](pic2.png) 
+![Alt Text](pic1.png) 
 
 ### Boundary 1:
 
