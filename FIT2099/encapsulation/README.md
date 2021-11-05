@@ -29,18 +29,84 @@ The realisation and the access to the names, meanings, values, and responsibilit
 | responsibilities                   |                                       |
 | **Private** variable               |                                       |
 
+## Why encapsulate?
+* Code is simplier as you don't have to know every little single detail of every module. Only need to know the interface
+* Avoids unnecessary connascence, coupling as well as degree
+* Reducing Dependencies (**ReD**)
 
 ## Information hiding
 * Every module is characterised by its **Knowldege of a *design decision* which hides from all others**
 * Interface or definition chosen to reveal as little has possible about it's inner workings: 
     * **inside single module**
     * Data structures
-    * Internal linkings
+    * Internal linings
     * Accessing procedures
     * modifying procedures
 
+## Encapsulation boundaries
+* the class
+* the package
+* the module
+* even the **scope defined within methods** by curly braces {}
 
- 
+It is ideal to **minimise access across classes or packages**
+
+## Encapsulation in java
+
+Reducing connascence using encapsulation
+  * [ ] Avoid public attributes, only make them public, protected or none where necessary
+
+  * [ ] Keep the class package-private if not needed
+
+Basic unit of Java programs is the class
+
+  * [ ] can group classes into packages
+
+  * [ ] can group packages into modules (as of Java 9)
+
+  * [ ] Can restrict access to anything in the class to:
+
+    * [ ] within the class only (private)
+
+    * [ ] within the package only (no access modifier - default)
+
+    * [ ] only to sub classes and within the package (protected)
+
+    * [ ] no restrictions (public)
+
+Always make variable private when not sure
+
+| **Modifier** | Class | Package | Subsclass | World |
+| :-:          | :-:   | :-:     | :-:       | :-:   |
+| public       | yes   | yes     | yes       | yes   |
+| protected    | yes   | yes     | yes       | no    |
+| no modifier* | yes   | yes     | no        | no    |
+| private      | yes   | no      | no        | no    |
+
+
+## Modules
+
+A **collection of Java packages organised in the usual way**
+
+Includes a **module descriptor file** (**module-info.java**) that specifies:
+* the **name** of the module
+* any other modules that this module **depends on**
+* which packages are **public**
+* any **services** this module offers
+* which services this module **consumes**
+e which other classes may apply **reflection** to packages in this module
+
+```java
+module my-module {
+  requires javafx.controls; // dependencies. Javafx.controls is read by my-module
+  exports my.program.package; // make package visible publicly
+  exports my.program.package
+    to other-module; // make package only visible to other-module
+  provides someInterface // implements this interface
+  with my.program.Implementation;
+}
+```
+
 ## Packages
 Grouping several classes together by packages.
 
@@ -69,4 +135,52 @@ The tighter the scope in which something is visible, the **less risk there is th
 
 So, for example: **declare local variables** in the loops where they are used, rather than at the beginning of a method; use local variables rather than attributes whenever possible; keep members that implement an abstraction together inside a class; keep classes that work together inside packages, and so on.
 
+## Minimising APIs
 
+Application programming interface: that part of a class/package/module that is accessible from outside aka public interface
+
+The **smaller and less complicated the interface is, the fewer opportunities for connascence** there are 
+
+## Defensive copy
+
+When getters return a reference to a private object that is **mutable** i.e. with public attributes or mutator methods (setters) other than constructor.
+
+You should make a copy and return that Otherwise, you lose benefit of encapsulation this is called a **privacy leak**
+
+Lose control of connascence?
+
+## Privacy leaks
+
+```java
+public class GasTank {
+    private Fraction fuel;
+    public gasTank() {
+        fuel = new Fraction(1,1);
+    }
+
+    public Fraction getFuel() {
+         return fuel;
+    }
+
+    public void setFuel(Fraction f) {
+        (if f.asDouble <= 1) {
+            fuel = f;
+        }
+    }
+
+}
+
+// Privacy leak:
+
+/**
+/* What happens here is the tank variable points to the memory address of the tank's fuel
+/* fuelread points to tank's fuel which points to the same memory address.
+/* Hence modifying fuelRead also modifies tank's fuel on the stack.
+*/
+
+GasTank tank = new GasTank();
+Fraction fuelRead = tank.getFuel();
+
+fuelRead.setNumerator(2);
+
+```
