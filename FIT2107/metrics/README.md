@@ -56,7 +56,7 @@ Statically analysing source code and in some cases uml diagrams
 
 * Good indicator of **functional correctness** and potentially useful proxies for the maintainability and **portability of software**.
 
-### #Code size
+### Code size
 
 * Determine how big it is.
 
@@ -186,3 +186,44 @@ Furthermore, they found this relationship was a useful rule of thumb for individ
 ## The only metric that seems like a useful predictor of maintenance effort is... lines of code!
 
 ![Alt Text](pic4.png) 
+
+> It is possible that **metrics apart from size** may play a role in reducing maintenance effort in large projects where it takes a long time (> 3 years) for developers to become fluent [19], but we see no evidence that they matter in our context.
+
+While the individual studies they examined indicated that a broad range of metrics were somehow connected with maintainability (they found that the most successful predictors related to "**size, complexity and coupling**") they concluded that the results were not convincing enough for broad applicability
+
+## RULE OF THUMB: BYO models
+
+### Watch out for red flags
+For instance, the maintainability indices of the four systems shown in figure 3 were around 120, the equivalent of about 70 on Microsoft's scale. That’s way, way above the 20 threshold that Microsoft uses as a "red flag".
+
+"Red flag" on the maintainability index - are probably useful indicators of potential quality problems, including correctness and maintainability. Observe that what this is likely to come down to is the presence of overly large methods! Similarly, indications of **overly close coupling between classes are likely indicative of a design problem** and is something you can probably spot at the design stage.
+
+Even though it might be difficult to make general recommendations from metrics, they can still be worth measuring and recording.
+
+Collecting metrics using automated tools from source code is an **extremely cheap process**. If you do that across a large project, or multiple projects in an organisation you can **look for your own patterns connecting particular "proxy metrics" with the things you ultimately want to achieve**.
+
+* Number and severity of failures reported after release.
+* Time required to fix bugs.
+* Time required to add new features.
+* Number of code changes required to add new features.
+
+## Traps and statics TODO
+
+## Taylorism
+
+Taylorism
+The idea of managing the behaviour of workers producing something by systematic measurement was
+
+(to simplify a little) popularized by Fredrick Winslow Taylor in the early twentieth century. His ideas are summarized in his book, Principles of Scientific Management21. Many of the principles espoused in it are echoed in software engineering today, particularly the more rigid, process-oriented types. In short, Taylor espoused the following:
+
+
+* Based on empirical measurement, develop a detailed "science" for each worker's job - essentially, a **manual describing in detail exactly how they should do their work as efficiently as possible**.
+
+* "Scientifically" choose the best people for the job, and **train them fully in the methodology**. Work with employees to ensure that they follow this "scientific" process precisely. This would involve incentivising them to a) follow the process, and b) **rewarding them for maximising the management's desired outputs**, which must be numerically measurable.
+
+* Take all of the thinking out of the worker's job and hand it to management.
+
+Measuring desirable outputs is not always so easy. For instance, consider this little anecdote, where the desired output is not enough due to **Goldberg effect and perverse incentives**. **Metrics should not be a goal**.
+
+
+![Alt Text](pic5.png) 
