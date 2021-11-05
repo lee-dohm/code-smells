@@ -11,6 +11,7 @@
         - [When encountering risks](#when-encountering-risks)
     - [The **FiveCoreRisks** of software projects (all may cause delay)](#the-fivecorerisks-of-software-projects-all-may-cause-delay)
     - [Risk Management](#risk-management)
+    - [Feature creep](#feature-creep)
 
 <!-- markdown-toc end -->
 
