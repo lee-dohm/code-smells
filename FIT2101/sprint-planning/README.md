@@ -129,3 +129,53 @@ To figure out how many stories should be selected, consider the concept of veloc
 If it’s not Done, it’s not done, and anything else is wishful thinking.
 
 If your team has been working together long enough, you'll usually find your velocity is pretty consistent from sprint to sprint.
+
+## Velocity
+Velocity is **unique for each team** because each team estimates differently and has different detailed work practices. So you can never assume that Team A and Team B will have identical velocities.
+
+Velocity can also be **affected by external factors**.  If half the team comes down with the flu, for example, velocity will probably go down.  If the Scrum Master goes off to a conference, velocity will probably go down. 
+
+When a new team member joins, velocity might go down initially. Remember **Brooks’ Law**: Adding manpower to a late software project makes it later.  The new **starter will need to be mentored**, and that will take at least one of your team members away from their regular duties.  But once the team member is up to speed, velocity should go up, higher than it originally was.
+
+### Stable and unstable velocity (inspect and adapt)
+If velocity in your team is **stable**, you can simply use last iteration’s velocity to estimate how many story points your team will be able to complete. 
+
+At the start, your initial estimate of velocity will be very rough and likely to be inaccurate, but as you gain experience you'll get better at this.  Then, you will be able to use your past velocity to predict how many story points your team is likely to get through in the sprint.  As a rule of thumb, you can expect your tasks to take about twice as long as you think they will.
+
+## Don't forget your tech stories
+
+If you have accrued significant technical debt, you may also need to select some tech stories so that you can refactor it away.
+
+If the Product Owner asks you to implement stories that you can only implement by incurring technical debt, have them promise to select some tech stories in future sprints -- and get that promise in writing!
+
+
+## Detailed planning
+
+After the team and Product Owner have agreed on which stories should be implemented during the sprint, the team needs to figure out how that will happen.  The Product Owner doesn't need to be present for this part, especially if they are a **non-technical client representative**.
+
+The team needs to:
+
+* break each story down into its component tasks
+* decide who should perform each task
+* ensure that team members aren’t overloaded or underloaded for the sprint
+
+## Stories and Tasks
+
+### Stories
+A **user story** describes a feature from the client’s or user’s point of view.  **Stories are vertical** – that is, they involve front-end work, back-end work, and everything in between.
+
+So far, we have assumed that stories will be the basic unit of work for the team, but this will not usually be the case.  
+
+**Some stories will require several team members to work together**, e.g. one person might implement the user interface while another gets the functionality working in the back end, so that each team member works on a horizontal slice of the functionality.  Doing this means that we can make our development more efficient by parallelising it, but it means that we need to distinguish between stories and tasks.
+
+### Task
+
+#### A thing a team member does
+**A task is simply a thing that a team member does**.  Unlike a story, it may or **may not deliver customer-visible value by itself**.  
+
+#### Always part of a story
+It will always form part of a story. but the story might involve other tasks too.
+
+#### Involve a lot of tech stacks
+Typically, a task will only involve one or two technologies (e.g. languages, services, packages, protocols).
+
