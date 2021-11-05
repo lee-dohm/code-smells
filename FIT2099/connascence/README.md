@@ -1,15 +1,15 @@
 # Connascence
 
-| Strength  | Connascence Type |
-| :-:       | :-:              |
-| Weakest   | Name             |
-|           | Type             |
-|           | Meaning          |
-|           | Position         |
-|           | Algorithm        |
-|           | Execution        |
-|           | Timing           |
-| Strongest | Identity         |
+| Strength        | Connascence Type |
+| :-:             | :-:              |
+| Weakest, Static | Name             |
+|                 | Type             |
+|                 | Meaning          |
+|                 | Position         |
+|                 | Algorithm        |
+| Dynamic         | Execution        |
+|                 | Timing           |
+| Strongest       | Identity         |
 
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
