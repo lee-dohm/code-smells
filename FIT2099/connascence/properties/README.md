@@ -108,3 +108,5 @@ Locality matters! Stronger connascences are more acceptible within a module. Wea
 
 ![Alt Text](pic3.png) 
 
+## Degree
+The degree of a piece of connascence is related to the **size of its impact. Does the coupling in question affect 2 entities, or 200**?
